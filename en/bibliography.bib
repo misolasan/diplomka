@@ -1,0 +1,117 @@
+
+@ARTICLE{waveletsTutorial,
+author={P. M. Bentley and J. T. E. McDonnell},
+journal={Electronics Communication Engineering Journal},
+title={Wavelet transforms: an introduction},
+year={1994},
+volume={6},
+number={4},
+pages={175-186},
+keywords={electrocardiography;signal processing;time-frequency analysis;wavelet transforms;discrete signals;electrocardiographic signal;signal processing;test signals;time-frequency analysis;time-scale anlysis;wavelet transforms;wavelets},
+doi={10.1049/ecej:19940401},
+ISSN={0954-0695},
+month={Aug},}
+
+
+@ARTICLE{waveletsEquiv,
+    author = {Ingrid Daubechies and Wim Sweldens},
+    title = {Factoring wavelet transforms into lifting steps},
+    journal = {J. Fourier Anal. Appl},
+    year = {1998},
+    volume = {4},
+    pages = {247--269}
+}
+
+@article{waveletsLifting,
+  title={Nonlinear wavelet transforms for image coding via lifting},
+  author={Roger L. Claypoole and Geoffrey M. Davis and Wim Sweldens and Richard G. Baraniuk},
+  journal={IEEE Trans. Image Processing},
+  year={2003},
+  volume={12},
+  pages={1449-1459}
+}
+
+@Article{survey,
+author="Pajarola, Renato
+and Gobbetti, Enrico",
+title="Survey of semi-regular multiresolution models for interactive terrain rendering",
+journal="The Visual Computer",
+year="2007",
+volume="23",
+number="8",
+pages="583--605",
+abstract="Rendering high quality digital terrains at interactive rates requires carefully crafted algorithms and data structures able to balance the competing requirements of realism and frame rates, while taking into account the memory and speed limitations of the underlying graphics platform. In this survey, we analyze multiresolution approaches that exploit a certain semi-regularity of the data. These approaches have produced some of the most efficient systems to date. After providing a short background and motivation for the methods, we focus on illustrating models based on tiled blocks and nested regular grids, quadtrees and triangle bin-trees triangulations, as well as cluster-based approaches. We then discuss LOD error metrics and system-level data management aspects of interactive terrain visualization, including dynamic scene management, out-of-core data organization and compression, as well as numerical accuracy. ",
+issn="1432-2315",
+doi="10.1007/s00371-007-0163-2",
+url="http://dx.doi.org/10.1007/s00371-007-0163-2"
+}
+
+@Article{cbdam,
+    author = {Enrico Gobbetti and Fabio Marton and Paolo Cignoni and Marco Di Benedetto and Fabio Ganovelli},
+    title = {{C-BDAM} -- Compressed Batched Dynamic Adaptive Meshes for Terrain Rendering},
+    journal = {Computer Graphics Forum},
+    volume = {25},
+    number = {3},
+    pages = {333-342},
+    publisher = {Blackwell Publishers},
+    address = {Oxford, England},
+    month = {September},
+    year = {2006},
+    abstract = { We describe a compressed multiresolution representation for supporting interactive rendering of very large planar and spherical terrain surfaces. The technique, called Compressed Batched Dynamic Adaptive Meshes (\textit{C-BDAM}), is an extension of the BDAM and P-BDAM chunked level-of-detail hierarchy. In the C-BDAM approach, all patches share the same regular triangulation connectivity and incrementally encode their vertex attributes using a quantized representation of the difference with respect to values predicted from the coarser level. The structure provides a number of benefits: simplicity of data structures, overall geometric continuity for planar and spherical domains, support for variable resolution input data, management of multiple vertex attributes, efficient compression and fast construction times, ability to support maximum-error metrics, real-time decompression and shaded rendering with configurable variable level-of-detail extraction, and runtime detail synthesis. The efficiency of the approach and the achieved compression rates are demonstrated on a number of test cases, including the interactive visualization of a 29 gigasample reconstruction of the whole planet Earth created from high resolution SRTM data. },
+    note = {Proc. Eurographics 2006},
+    url = {http://vic.crs4.it/vic/cgi-bin/bib-page.cgi?id='Gobbetti:2006:CCB'},
+}
+
+@InProceedings{pbdam,
+    author = {Paolo Cignoni and Fabio Ganovelli and Enrico Gobbetti and Fabio Marton and Federico Ponchio and Roberto Scopigno},
+    title = {Planet--Sized Batched Dynamic Adaptive Meshes (P-BDAM)},
+    booktitle = {Proceedings IEEE Visualization},
+    pages = {147--155},
+    publisher = {IEEE Computer Society Press},
+    address = {Conference held in Seattle, WA, USA},
+    month = {October},
+    year = {2003},
+    abstract = { This paper describes an efficient technique for out-of-core management and interactive rendering of planet sized textured terrain surfaces. The technique, called P-Batched Dynamic Adaptive Meshes (P-BDAM), is based on BDAM structure. Data is partitioned into a set of BDAM tiles, each of them constituted by a pair of geometry bintrees of small triangular patches and an associated texture quadtree. Each triangular patch is a general triangulation of points on a displaced triangle. The proposed framework introduces several advances with respect to the state of the art: thanks to a batched host-to-graphics communication model, we outperform current adaptive tessellation solutions in terms of rendering speed; we guarantee overall geometric continuity, exploiting programmable graphics hardware to cope with the accuracy issues introduced by single precision floating points; we exploit a compressed out of core representation and speculative prefetching for hiding disk latency during rendering of out-of-core data; we efficiently construct high quality simplified representations with a novel distributed out of core simplification algorithm working on a standard PC network. },
+    url = {http://vic.crs4.it/vic/cgi-bin/bib-page.cgi?id='Cignoni:2003:PBD'},
+}
+
+@ARTICLE{two-stage,
+author={Sehoon Yea and Pearlman, W.A.},
+journal={Image Processing, IEEE Transactions on},
+title={A Wavelet-Based Two-Stage Near-Lossless Coder},
+year={2006},
+volume={15},
+number={11},
+pages={3488-3500},
+keywords={arithmetic codes;data compression;image coding;transform coding;wavelet transforms;arithmetic coding;compression scheme;rate-distortion theory;two-stage near-lossless coder;wavelet-based coder;wavelet-based lossy layer;Arithmetic;Biomedical imaging;Bit rate;Discrete wavelet transforms;Image coding;Image reconstruction;Iterative decoding;Medical diagnostic imaging;Rate-distortion;Wavelet domain;Critical distortion;lossless compression;lossy plus residual coding;near-lossless compression},
+doi={10.1109/TIP.2006.877525},
+ISSN={1057-7149},
+month={Nov},}
+
+@article{jpeg2000terrain,
+ author = {Olanda, Ricardo and Perez, Mariano and Orduna, Juan Manuel and Rueda, Silvia},
+ title = {Terrain Data Compression Using Wavelet-tiled Pyramids for Online 3D Terrain Visualization},
+ journal = {Int. J. Geogr. Inf. Sci.},
+ issue_date = {February 2014},
+ volume = {28},
+ number = {2},
+ month = feb,
+ year = {2014},
+ issn = {1365-8816},
+ pages = {407--425},
+ numpages = {19},
+ url = {http://dx.doi.org/10.1080/13658816.2013.829920},
+ doi = {10.1080/13658816.2013.829920},
+ acmid = {2542610},
+ publisher = {Taylor \& Francis, Inc.},
+ address = {Bristol, PA, USA},
+ keywords = {JPEG2000, interactive terrain visution, terrain data compression, virtual reality},
+} 
+
+@ARTICLE{jpeg,
+    author = {Gregory K. Wallace},
+    title = {The JPEG still picture compression standard},
+    journal = {Communications of the ACM},
+    year = {1991},
+    pages = {30--44}
+}

@@ -1,0 +1,57 @@
+\begin{thebibliography}{1}
+
+\bibitem{waveletsTutorial}
+P.~M. Bentley and J.~T.~E. McDonnell.
+\newblock Wavelet transforms: an introduction.
+\newblock {\em Electronics Communication Engineering Journal}, 6(4):175--186,
+  Aug 1994.
+
+\bibitem{pbdam}
+Paolo Cignoni, Fabio Ganovelli, Enrico Gobbetti, Fabio Marton, Federico
+  Ponchio, and Roberto Scopigno.
+\newblock Planet--sized batched dynamic adaptive meshes (p-bdam).
+\newblock In {\em Proceedings IEEE Visualization}, pages 147--155, Conference
+  held in Seattle, WA, USA, October 2003. IEEE Computer Society Press.
+
+\bibitem{waveletsLifting}
+Roger~L. Claypoole, Geoffrey~M. Davis, Wim Sweldens, and Richard~G. Baraniuk.
+\newblock Nonlinear wavelet transforms for image coding via lifting.
+\newblock {\em IEEE Trans. Image Processing}, 12:1449--1459, 2003.
+
+\bibitem{waveletsEquiv}
+Ingrid Daubechies and Wim Sweldens.
+\newblock Factoring wavelet transforms into lifting steps.
+\newblock {\em J. Fourier Anal. Appl}, 4:247--269, 1998.
+
+\bibitem{cbdam}
+Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
+  Ganovelli.
+\newblock {C-BDAM} -- compressed batched dynamic adaptive meshes for terrain
+  rendering.
+\newblock {\em Computer Graphics Forum}, 25(3):333--342, September 2006.
+\newblock Proc. Eurographics 2006.
+
+\bibitem{jpeg2000terrain}
+Ricardo Olanda, Mariano Perez, Juan~Manuel Orduna, and Silvia Rueda.
+\newblock Terrain data compression using wavelet-tiled pyramids for online 3d
+  terrain visualization.
+\newblock {\em Int. J. Geogr. Inf. Sci.}, 28(2):407--425, February 2014.
+
+\bibitem{survey}
+Renato Pajarola and Enrico Gobbetti.
+\newblock Survey of semi-regular multiresolution models for interactive terrain
+  rendering.
+\newblock {\em The Visual Computer}, 23(8):583--605, 2007.
+
+\bibitem{jpeg}
+Gregory~K. Wallace.
+\newblock The jpeg still picture compression standard.
+\newblock {\em Communications of the ACM}, pages 30--44, 1991.
+
+\bibitem{two-stage}
+Sehoon Yea and W.A. Pearlman.
+\newblock A wavelet-based two-stage near-lossless coder.
+\newblock {\em Image Processing, IEEE Transactions on}, 15(11):3488--3500, Nov
+  2006.
+
+\end{thebibliography}

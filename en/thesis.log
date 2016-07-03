@@ -1,0 +1,825 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  2 JUL 2016 17:21
+entering extended mode
+**thesis.tex
+(C:\Users\X5\Desktop\diplomka\en\thesis.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1250.def"
+File: cp1250.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks17
+\thm@bodyfont=\toks18
+\thm@headfont=\toks19
+\thm@notefont=\toks20
+\thm@headpunct=\toks21
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\was\fixmath.sty"
+Package: fixmath 2000/04/11 v0.9 (WaS)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 32.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \alpha on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \beta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \gamma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \delta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \zeta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \eta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \theta on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \iota on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \kappa on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \lambda on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \mu on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \nu on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \xi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \rho on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \sigma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \tau on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \phi on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \chi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \psi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \omega on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \varpi on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \varphi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \varrho on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 66.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks23
+\ex@=\dimen105
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks24
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks25
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks26
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count103
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4319.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count104
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count105
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
+(C:\Users\X5\Desktop\diplomka\en\thesis.aux
+(C:\Users\X5\Desktop\diplomka\en\introduction.aux)
+(C:\Users\X5\Desktop\diplomka\en\introductionWavelets.aux)
+(C:\Users\X5\Desktop\diplomka\en\outline.aux)
+(C:\Users\X5\Desktop\diplomka\en\details.aux)
+(C:\Users\X5\Desktop\diplomka\en\comparison.aux)
+(C:\Users\X5\Desktop\diplomka\en\results.aux)
+(C:\Users\X5\Desktop\diplomka\en\conclusion.aux)
+(C:\Users\X5\Desktop\diplomka\en\epilog.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen118
+\scratchbox=\box28
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen119
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks29
+)
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 70.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count117
+)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+
+(C:\Users\X5\Desktop\diplomka\en\thesis.out)
+(C:\Users\X5\Desktop\diplomka\en\thesis.out)
+\@outlinefile=\write3
+Package epstopdf Info: Source file: <../img/logo.eps>
+(epstopdf)                    date: 2011-12-05 13:27:16
+(epstopdf)                    size: 618282 bytes
+(epstopdf)             Output file: <../img/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-10 20:09:09
+(epstopdf)                    size: 149295 bytes
+(epstopdf)             Command: <epstopdf --outfile=../img/logo-eps-converted-t
+o.pdf ../img/logo.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<../img/logo-eps-converted-to.pdf, id=55, 371.3875pt x 366.36874pt>
+File: ../img/logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../img/logo-eps-converted-to.pdf>
+Package pdftex.def Info: ../img/logo-eps-converted-to.pdf used on input line 95
+.
+(pdftex.def)             Requested size: 170.71652pt x 168.41426pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/X5/Desktop/diplo
+mka/img/logo-eps-converted-to.pdf>]
+[2
+
+] [3] [4] (C:\Users\X5\Desktop\diplomka\en\thesis.toc)
+\tf@toc=\write4
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.246 \include{introduction}
+                             [1
+
+
+]
+(C:\Users\X5\Desktop\diplomka\en\introduction.tex
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 
+      [2
+
+
+])pdfTeX warning (ext4): destination with the same identifier (name{page.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.246 \include{introduction}
+                             [3]
+(C:\Users\X5\Desktop\diplomka\en\introductionWavelets.tex
+Chapter 2.
+
+Overfull \hbox (27.21071pt too wide) in paragraph at lines 5--5
+[]\OT1/cmr/bx/n/17.28 The in-tro-duc-tion to second-generation wavelets 
+ []
+
+
+Overfull \hbox (2.81499pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/12 the in-put. This in-for-ma-tion tends to be sparse and input-de
+pendent - the smoother
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 
+      [4
+
+
+
+] [5]
+Overfull \hbox (13.05087pt too wide) in paragraph at lines 41--41
+[]\OT1/cmr/bx/n/17.28 Comparisons be-tween the wavelets, C-BDAM
+ []
+
+<figures/cbdam_lifting.png, id=150, 306.39468pt x 375.65344pt>
+File: figures/cbdam_lifting.png Graphic file (type png)
+
+<use figures/cbdam_lifting.png>
+Package pdftex.def Info: figures/cbdam_lifting.png used on input line 63.
+(pdftex.def)             Requested size: 115.51767pt x 141.62631pt.
+) [6] [7 <C:/Users/X5/Desktop/diplomka/en/figures/cbdam_lifting.png>] (C:\Users
+\X5\Desktop\diplomka\en\outline.tex
+Chapter 3.
+[8
+
+
+
+]) [9] (C:\Users\X5\Desktop\diplomka\en\details.tex
+Chapter 4.
+<figures/subst.pdf, id=186, 597.50786pt x 845.04686pt>
+File: figures/subst.pdf Graphic file (type pdf)
+ <use figures/subst.pdf>
+Package pdftex.def Info: figures/subst.pdf used on input line 10.
+(pdftex.def)             Requested size: 115.51767pt x 123.6013pt.
+
+<figures/bcomp.pdf, id=191, 597.50786pt x 845.04686pt>
+File: figures/bcomp.pdf Graphic file (type pdf)
+ <use figures/bcomp.pdf>
+Package pdftex.def Info: figures/bcomp.pdf used on input line 27.
+(pdftex.def)             Requested size: 123.77074pt x 97.89203pt.
+
+[10
+
+
+
+ <C:/Users/X5/Desktop/diplomka/en/figures/subst.pdf>]
+<figures/extb.pdf, id=212, 597.50786pt x 845.04686pt>
+File: figures/extb.pdf Graphic file (type pdf)
+ <use figures/extb.pdf>
+Package pdftex.def Info: figures/extb.pdf used on input line 42.
+(pdftex.def)             Requested size: 165.02345pt x 130.98465pt.
+
+<figures/artif_orig0.png, id=214, 70.76437pt x 36.135pt>
+File: figures/artif_orig0.png Graphic file (type png)
+
+<use figures/artif_orig0.png>
+Package pdftex.def Info: figures/artif_orig0.png used on input line 51.
+(pdftex.def)             Requested size: 95.36472pt x 70.26662pt.
+
+<figures/artif_orig1.png, id=215, 67.75313pt x 39.14626pt>
+File: figures/artif_orig1.png Graphic file (type png)
+
+<use figures/artif_orig1.png>
+Package pdftex.def Info: figures/artif_orig1.png used on input line 52.
+(pdftex.def)             Requested size: 95.36028pt x 70.27263pt.
+
+<figures/artif_four0.png, id=216, 70.76437pt x 36.135pt>
+File: figures/artif_four0.png Graphic file (type png)
+
+<use figures/artif_four0.png>
+Package pdftex.def Info: figures/artif_four0.png used on input line 53.
+(pdftex.def)             Requested size: 95.36472pt x 70.26662pt.
+
+<figures/artif_four1.png, id=217, 67.75313pt x 39.14626pt>
+File: figures/artif_four1.png Graphic file (type png)
+
+<use figures/artif_four1.png>
+Package pdftex.def Info: figures/artif_four1.png used on input line 54.
+(pdftex.def)             Requested size: 95.36028pt x 70.27263pt.
+
+<figures/artif_twelve0.png, id=218, 70.76437pt x 36.135pt>
+File: figures/artif_twelve0.png Graphic file (type png)
+
+<use figures/artif_twelve0.png>
+Package pdftex.def Info: figures/artif_twelve0.png used on input line 55.
+(pdftex.def)             Requested size: 95.36472pt x 70.26662pt.
+
+<figures/artif_twelve1.png, id=219, 67.75313pt x 39.14626pt>
+File: figures/artif_twelve1.png Graphic file (type png)
+
+<use figures/artif_twelve1.png>
+Package pdftex.def Info: figures/artif_twelve1.png used on input line 56.
+(pdftex.def)             Requested size: 95.36028pt x 70.27263pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
+
+ []
+
+<figures/artif_change_orig0.png, id=220, 64.24pt x 64.24pt>
+File: figures/artif_change_orig0.png Graphic file (type png)
+
+<use figures/artif_change_orig0.png>
+Package pdftex.def Info: figures/artif_change_orig0.png used on input line 64.
+(pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
+
+<figures/artif_change_orig1.png, id=221, 64.24pt x 64.24pt>
+File: figures/artif_change_orig1.png Graphic file (type png)
+
+<use figures/artif_change_orig1.png>
+Package pdftex.def Info: figures/artif_change_orig1.png used on input line 65.
+(pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
+
+<figures/artif_change_four0.png, id=222, 64.24pt x 64.24pt>
+File: figures/artif_change_four0.png Graphic file (type png)
+
+<use figures/artif_change_four0.png>
+Package pdftex.def Info: figures/artif_change_four0.png used on input line 66.
+(pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
+
+<figures/artif_change_four1.png, id=223, 64.24pt x 64.24pt>
+File: figures/artif_change_four1.png Graphic file (type png)
+
+<use figures/artif_change_four1.png>
+Package pdftex.def Info: figures/artif_change_four1.png used on input line 67.
+(pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
+
+<figures/artif_change_twelve0.png, id=224, 64.24pt x 64.24pt>
+File: figures/artif_change_twelve0.png Graphic file (type png)
+
+<use figures/artif_change_twelve0.png>
+Package pdftex.def Info: figures/artif_change_twelve0.png used on input line 68
+.
+(pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
+
+<figures/artif_change_twelve1.png, id=225, 64.24pt x 64.24pt>
+File: figures/artif_change_twelve1.png Graphic file (type png)
+
+<use figures/artif_change_twelve1.png>
+Package pdftex.def Info: figures/artif_change_twelve1.png used on input line 69
+.
+(pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+
+ []
+
+<figures/artifs_theory.pdf, id=228, 597.50786pt x 845.04686pt>
+File: figures/artifs_theory.pdf Graphic file (type pdf)
+
+<use figures/artifs_theory.pdf>
+Package pdftex.def Info: figures/artifs_theory.pdf used on input line 77.
+(pdftex.def)             Requested size: 185.65297pt x 75.58896pt.
+
+<figures/artifs_theory2.pdf, id=230, 597.50786pt x 845.04686pt>
+File: figures/artifs_theory2.pdf Graphic file (type pdf)
+
+<use figures/artifs_theory2.pdf>
+Package pdftex.def Info: figures/artifs_theory2.pdf used on input line 83.
+(pdftex.def)             Requested size: 185.65297pt x 75.58896pt.
+ [11 <C:/Users/X5/Desktop/diplomka/en/figures/bcomp.pdf> <C:/Users/X5/Desktop/d
+iplomka/en/figures/extb.pdf>] [12 <C:/Users/X5/Desktop/diplomka/en/figures/arti
+f_orig0.png> <C:/Users/X5/Desktop/diplomka/en/figures/artif_orig1.png> <C:/User
+s/X5/Desktop/diplomka/en/figures/artif_four0.png> <C:/Users/X5/Desktop/diplomka
+/en/figures/artif_four1.png> <C:/Users/X5/Desktop/diplomka/en/figures/artif_twe
+lve0.png> <C:/Users/X5/Desktop/diplomka/en/figures/artif_twelve1.png> <C:/Users
+/X5/Desktop/diplomka/en/figures/artif_change_orig0.png (PNG copy)> <C:/Users/X5
+/Desktop/diplomka/en/figures/artif_change_orig1.png (PNG copy)> <C:/Users/X5/De
+sktop/diplomka/en/figures/artif_change_four0.png (PNG copy)> <C:/Users/X5/Deskt
+op/diplomka/en/figures/artif_change_four1.png (PNG copy)> <C:/Users/X5/Desktop/
+diplomka/en/figures/artif_change_twelve0.png (PNG copy)> <C:/Users/X5/Desktop/d
+iplomka/en/figures/artif_change_twelve1.png (PNG copy)>] <figures/ccomp.pdf, id
+=271, 597.50786pt x 845.04686pt>
+File: figures/ccomp.pdf Graphic file (type pdf)
+
+<use figures/ccomp.pdf>
+Package pdftex.def Info: figures/ccomp.pdf used on input line 93.
+(pdftex.def)             Requested size: 123.77074pt x 97.89203pt.
+ [13 <C:/Users/X5/Desktop/diplomka/en/figures/artifs_theory.pdf> <C:/Users/X5/D
+esktop/diplomka/en/figures/artifs_theory2.pdf> <C:/Users/X5/Desktop/diplomka/en
+/figures/ccomp.pdf>]
+<figures/extc.pdf, id=311, 597.50786pt x 845.04686pt>
+File: figures/extc.pdf Graphic file (type pdf)
+ <use figures/extc.pdf>
+Package pdftex.def Info: figures/extc.pdf used on input line 110.
+(pdftex.def)             Requested size: 185.65297pt x 130.99016pt.
+)
+[14 <C:/Users/X5/Desktop/diplomka/en/figures/extc.pdf>]
+(C:\Users\X5\Desktop\diplomka\en\comparison.tex
+Chapter 5.
+
+LaTeX Warning: Reference `sec:details' on page 15 undefined on input line 5.
+
+) [15
+
+
+
+] [16] (C:\Users\X5\Desktop\diplomka\en\results.tex
+Chapter 6.
+<figures/samp_orig.png, id=340, 74.52844pt x 74.52844pt>
+File: figures/samp_orig.png Graphic file (type png)
+
+<use figures/samp_orig.png>
+Package pdftex.def Info: figures/samp_orig.png used on input line 10.
+(pdftex.def)             Requested size: 165.02345pt x 165.05135pt.
+
+<figures/samp_comp.png, id=341, 74.52844pt x 74.52844pt>
+File: figures/samp_comp.png Graphic file (type png)
+
+<use figures/samp_comp.png>
+Package pdftex.def Info: figures/samp_comp.png used on input line 11.
+(pdftex.def)             Requested size: 165.02345pt x 165.05135pt.
+
+<figures/samp_diff.png, id=342, 75.28125pt x 74.52844pt>
+File: figures/samp_diff.png Graphic file (type png)
+
+<use figures/samp_diff.png>
+Package pdftex.def Info: figures/samp_diff.png used on input line 12.
+(pdftex.def)             Requested size: 165.02345pt x 163.4058pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+[][] []
+ []
+
+<figures/dim_64_amp_16_lon_4_horizontal_orig.png, id=343, 64.24pt x 64.24pt>
+File: figures/dim_64_amp_16_lon_4_horizontal_orig.png Graphic file (type png)
+
+<use figures/dim_64_amp_16_lon_4_horizontal_orig.png>
+Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_orig.png used o
+n input line 20.
+(pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
+
+<figures/dim_64_amp_16_lon_16_horizontal_orig.png, id=344, 64.24pt x 64.24pt>
+File: figures/dim_64_amp_16_lon_16_horizontal_orig.png Graphic file (type png)
+
+<use figures/dim_64_amp_16_lon_16_horizontal_orig.png>
+Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_orig.png used 
+on input line 21.
+(pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
+
+<figures/dim_64_amp_16_lon_4_horizontal_out.png, id=345, 64.24pt x 64.24pt>
+File: figures/dim_64_amp_16_lon_4_horizontal_out.png Graphic file (type png)
+
+<use figures/dim_64_amp_16_lon_4_horizontal_out.png>
+Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_out.png used on
+ input line 22.
+(pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
+
+<figures/dim_64_amp_16_lon_16_horizontal_out.png, id=346, 64.24pt x 64.24pt>
+File: figures/dim_64_amp_16_lon_16_horizontal_out.png Graphic file (type png)
+
+<use figures/dim_64_amp_16_lon_16_horizontal_out.png>
+Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_out.png used o
+n input line 23.
+(pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
+
+<figures/dim_64_amp_16_lon_4_horizontal_diff.png, id=347, 64.24pt x 64.24pt>
+File: figures/dim_64_amp_16_lon_4_horizontal_diff.png Graphic file (type png)
+
+<use figures/dim_64_amp_16_lon_4_horizontal_diff.png>
+Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_diff.png used o
+n input line 24.
+(pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
+
+<figures/dim_64_amp_16_lon_16_horizontal_diff.png, id=348, 64.24pt x 64.24pt>
+File: figures/dim_64_amp_16_lon_16_horizontal_diff.png Graphic file (type png)
+
+<use figures/dim_64_amp_16_lon_16_horizontal_diff.png>
+Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_diff.png used 
+on input line 25.
+(pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+
+ []
+
+) [17
+
+
+
+] [18 <C:/Users/X5/Desktop/diplomka/en/figures/samp_orig.png> <C:/Users/X5/Desk
+top/diplomka/en/figures/samp_comp.png> <C:/Users/X5/Desktop/diplomka/en/figures
+/samp_diff.png>] [19 <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp_16_lon
+_4_horizontal_orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp_16_
+lon_16_horizontal_orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp
+_16_lon_4_horizontal_out.png (PNG copy)> <C:/Users/X5/Desktop/diplomka/en/figur
+es/dim_64_amp_16_lon_16_horizontal_out.png (PNG copy)> <C:/Users/X5/Desktop/dip
+lomka/en/figures/dim_64_amp_16_lon_4_horizontal_diff.png> <C:/Users/X5/Desktop/
+diplomka/en/figures/dim_64_amp_16_lon_16_horizontal_diff.png>]
+(C:\Users\X5\Desktop\diplomka\en\conclusion.tex
+Chapter 7.
+) [20
+
+
+
+] (C:\Users\X5\Desktop\diplomka\en\epilog.tex) [21
+
+
+
+]
+(C:\Users\X5\Desktop\diplomka\en\thesis.bbl [22
+
+]) [23
+
+] [24
+
+] [25
+
+] [26
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+
+(C:\Users\X5\Desktop\diplomka\en\thesis.aux
+(C:\Users\X5\Desktop\diplomka\en\introduction.aux)
+(C:\Users\X5\Desktop\diplomka\en\introductionWavelets.aux)
+(C:\Users\X5\Desktop\diplomka\en\outline.aux)
+(C:\Users\X5\Desktop\diplomka\en\details.aux)
+(C:\Users\X5\Desktop\diplomka\en\comparison.aux)
+(C:\Users\X5\Desktop\diplomka\en\results.aux)
+(C:\Users\X5\Desktop\diplomka\en\conclusion.aux)
+(C:\Users\X5\Desktop\diplomka\en\epilog.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6EC3A4CE87727962A593A67702003EEF;2126.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+ ) 
+Here is how much of TeX's memory you used:
+ 9465 strings out of 493921
+ 135159 string characters out of 3144884
+ 201466 words of memory out of 3000000
+ 12518 multiletter control sequences out of 15000+200000
+ 13194 words of font info for 46 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,8n,30p,1484b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on thesis.pdf (30 pages, 590962 bytes).
+PDF statistics:
+ 462 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,41 @@
+\chapter{The outline of the~method}\label{sec:outline}
+
+\newcommand{\objnorm}[2]{\mathbold{#1_{#2}}}
+\newcommand{\objdot}[2]{\mathbold{#1_{#2}^\bullet}}
+\newcommand{\lnorm}[1]{\objnorm{L}{#1}}
+\newcommand{\ldot}[1]{\mathbold{L_{#1}^\bullet}}
+
+\newcommand{\opnorm}[2]{\mathit{#1_{#2}}}
+\newcommand{\dnorm}{\opnorm{Q}{D}}
+
+In this chapter, we will briefly describe how the~compression works. Basically, two consecutive passes are performed on the~input heightmap. The~first bottom-top pass computes the~target mip-maps - from the~largest one to the~smallest one. Those will be the~mip-maps, against which the~accuracy of reconstruction will be measured. The~largest mip-map is the~input itself. The~second top-bottom pass constructs the~compressed mip-maps from the~smallest one to the~largest one with respect to the~target mip-maps in order to ensure that the~maximum deviation of every compressed mip-map from its corresponding target mip-map is within the~maximum error bound set by the~user. The~smallest of these mip-maps is just the~suitably quantized sole value of the~corresponding target mip-map. It is directly stored as first. The~values of each following compressed mip-map are predicted from its previous compressed mip-map. For these mip-maps, we store just the~residuals which are added to the~predictions to satisfy the~maximum deviation constraint.
+
+More formally, the~first pass is given the~input square block of float height samples $\lnorm{n}$ sized $2^n x 2^n$ and produces $n$ mip-maps $\lnorm{n-1..0}$ from it, one by one. The~dimension of $\lnorm{i}$ is half the~dimension of $\lnorm{i+1}$. Generally, $\lnorm{i}$ can be computed from $\lnorm{i+1}$ by any form of averaging of pixels - see the~details in the~following chapter. 
+
+The~second top-bottom pass has already $\lnorm{0..n}$ available and computes $\ldot{0..n}$ - the~compressed mip-maps. The~dimension of $\lnorm{i}$ and $\ldot{i}$ is the~same. The~computation ensures that the~maximum absolute deviation between their~corresponding samples is not greater than $\objnorm{D}{}$ - the~parameter set by the~user. This will be denoted by:
+$$maxdev(\lnorm{i}, \ldot{i}) \leq \objnorm{D}{},$$
+where
+$$maxdev(A, B) = \underset{x, y}{\arg\max}|A[x][y] - B[x][y]|$$
+We will achieve this with the~help of the~uniform quantizer $\opnorm{Q}{D}$ the~quantization step of which is set to the~maximum value which still respects this error bound:
+$$maxdev(\dnorm(x), x) \leq \objnorm{D}{},$$
+where $x$ is an arbitrary float sample or block of samples.
+The~quantizing step of this quantizer is $2\objnorm{D}{} - 1$ in case $\objnorm{D}{} \geq 0.5$ and $2\objnorm{D}{}$ otherwise.
+
+
+As we already mentioned, $\ldot{0}$ is just the~quantized sole value of $\lnorm{0}$:
+$$\ldot{0} = \dnorm(\lnorm{0})$$
+Thanks to the~fact that the~quantizer respects the~maximum-error bound $\objnorm{D}{}$, $maxdev(\lnorm{0}, \ldot{0}) \leq \objnorm{D}{}$.
+
+
+Then, the~values of every following $\ldot{i+1}$ are predicted from the~values of the~previous $\ldot{i}$. The~raw differences between the~target values and the~predicted values are denoted as $\objnorm{E}{i+1}$ (the~residuals). With the~help of them and the~predictions from $\ldot{i}$, we would be able to accurately reconstruct the target mip-map $\lnorm{i+1}$. However, these residuals are then quantized with the~uniform quantizer $\opnorm{Q}{D}$ to $\objdot{E}{i+1}$. With the~help of the~quantized residuals, we are no longer able to accurately reconstruct $\lnorm{i+1}$, but thanks to the~fact that the~used quantizer keeps the~maximum absolute error within the~bound $\mathbold{D}$, we can guarantee that the~reconstructed $\ldot{i+1}$ will satisfy the~maximum-error constraint: $maxdev(\ldot{i+1}, \lnorm{i+1}) \leq \objnorm{D}{}$. Here is how we construct $\ldot{i+1}$:
+
+$$\objnorm{E}{i+1} = \lnorm{i+1} - \opnorm{P}{}(\ldot{i})$$
+$$\objdot{E}{i+1} = \opnorm{Q}{D}(\objnorm{E}{i+1})$$
+\begin{equation}
+\label{eq:nextLevel}
+\ldot{i+1} = \opnorm{P}{}(\ldot{i}) + \objdot{E}{i+1}
+\end{equation}
+
+Thanks to the fact that the~residuals $\objnorm{E}{i+1}$ are computed with respect to the~target mip-map $\lnorm{i+1}$, the~maximum-error constraint is satisfied, no matter what values are in $\ldot{i}$ and what the~prediction operator $\opnorm{P}{}$ looks like. At the~end, the~quantized residuals $\objdot{E}{0..n}$ are compressed with the~help of an~entropy codec (Zlib) and stored ($\objdot{E}{0} = \ldot{0}$). The~order of their storage is from $\objdot{E}{0}$ to $\objdot{E}{n}$, so that progressive decompression is possible. The~more accurate $\opnorm{P}{}$ is, the~smaller the~residuals are, thus the~higher the~compression ratio is. The~details of the~prediction operator used in this method are described in the~following chapter. The~higher $\objnorm{D}{}$ is, the~less entropy there is among the~residuals, thus the~higher the~compression ratio is, but the~lower the~reconstruction quality is.
+
+The~real-time decompression then just reads the~stored quantized residuals and decompresses them with the~help of the~same entropy codec. Thanks to the~fact that the~residuals of a~smaller mip-map are stored before the~residuals of a~larger mip-map, progressive decompression of mip-maps $\ldot{0..n}$ is possible, utilizing the~same principle of producing predictions from the~previous reconstructed mip-map and adding residuals to them (eq.~\ref{eq:nextLevel}). Of course, in order for this to work, the~prediction operator must be identical to the~one used in the~compression.
