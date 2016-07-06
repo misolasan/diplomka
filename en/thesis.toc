@@ -1,15 +1,15 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\contentsline {chapter}{\numberline {2}The\nobreakspace {}wavelets}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}The\nobreakspace {}introduction to second-generation wavelets}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Comparisons between the\nobreakspace {}wavelets, C-BDAM and our method}{7}{section.2.2}
-\contentsline {chapter}{\numberline {3}The outline of the\nobreakspace {}method}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}Details of the\nobreakspace {}method}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Bottom-top pass}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Top-bottom pass}{12}{section.4.2}
-\contentsline {chapter}{\numberline {5}Functional comparison to C-BDAM and wavelets}{19}{chapter.5}
-\contentsline {chapter}{\numberline {6}Results}{21}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{24}{chapter.7}
-\contentsline {chapter}{Conclusion}{25}{chapter*.2}
-\contentsline {chapter}{List of Tables}{28}{chapter*.4}
-\contentsline {chapter}{List of Abbreviations}{29}{chapter*.5}
-\contentsline {chapter}{Attachments}{30}{chapter*.6}
+\contentsline {chapter}{\numberline {2}The\nobreakspace {}wavelets}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}The\nobreakspace {}introduction to second-generation wavelets}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Comparisons between the\nobreakspace {}wavelets, C-BDAM and our method}{8}{section.2.2}
+\contentsline {chapter}{\numberline {3}The outline of the\nobreakspace {}method}{10}{chapter.3}
+\contentsline {chapter}{\numberline {4}Details of the\nobreakspace {}method}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Bottom-top pass}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Top-bottom pass}{13}{section.4.2}
+\contentsline {chapter}{\numberline {5}Functional comparison to C-BDAM and wavelets}{20}{chapter.5}
+\contentsline {chapter}{\numberline {6}Results}{22}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}
+\contentsline {chapter}{Conclusion}{26}{chapter*.2}
+\contentsline {chapter}{List of Tables}{30}{chapter*.4}
+\contentsline {chapter}{List of Abbreviations}{31}{chapter*.5}
+\contentsline {chapter}{Attachments}{32}{chapter*.6}

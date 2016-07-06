@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{waveletsTutorial}
 P.~M. Bentley and J.~T.~E. McDonnell.
@@ -23,6 +23,23 @@ Ingrid Daubechies and Wim Sweldens.
 \newblock Factoring wavelet transforms into lifting steps.
 \newblock {\em J. Fourier Anal. Appl}, 4:247--269, 1998.
 
+\bibitem{meshesGPU1}
+Christian Dick, Jens Schneider, and R{\"{u}}diger Westermann.
+\newblock Efficient geometry compression for gpu-based decoding in realtime
+  terrain rendering.
+\newblock {\em Comput. Graph. Forum}, 28(1):67--83, 2009.
+
+\bibitem{fieldGPU}
+Dorde~M. Durdevic and Igor~I. Tartalja.
+\newblock Hfpac: {GPU} friendly height field parallel compression.
+\newblock {\em GeoInformatica}, 17(1):207--233, 2013.
+
+\bibitem{meshes}
+Thomas Gerstner.
+\newblock Multiresolution compression and visualization of global topographic
+  data.
+\newblock {\em GeoInformatica}, 7(1):7--32, 2003.
+
 \bibitem{cbdam}
 Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
   Ganovelli.
@@ -30,6 +47,13 @@ Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
   rendering.
 \newblock {\em Computer Graphics Forum}, 25(3):333--342, September 2006.
 \newblock Proc. Eurographics 2006.
+
+\bibitem{meshesGPU2}
+Peter Lindstrom and Jonathan~D. Cohen.
+\newblock On-the-fly decompression and rendering of multiresolution terrain.
+\newblock In {\em Proceedings of the 2010 Symposium on Interactive 3D Graphics,
+  {SI3D} 2010, February 19-21, 2010, Washington, DC, {USA}}, pages 65--73,
+  2010.
 
 \bibitem{jpeg2000terrain}
 Ricardo Olanda, Mariano Perez, Juan~Manuel Orduna, and Silvia Rueda.
@@ -42,6 +66,11 @@ Renato Pajarola and Enrico Gobbetti.
 \newblock Survey of semi-regular multiresolution models for interactive terrain
   rendering.
 \newblock {\em The Visual Computer}, 23(8):583--605, 2007.
+
+\bibitem{fractal}
+Dietmar Saupe and Raouf Hamzaoui.
+\newblock A review of the fractal image compression literature.
+\newblock {\em SIGGRAPH Comput. Graph.}, 28(4):268--276, November 1994.
 
 \bibitem{jpeg}
 Gregory~K. Wallace.
