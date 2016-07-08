@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  6 JUL 2016 23:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  8 JUL 2016 20:09
 entering extended mode
 **thesis.tex
 (C:\Users\X5\Desktop\diplomka\en\thesis.tex
@@ -340,6 +340,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (C:\Users\X5\Desktop\diplomka\en\thesis.aux
 (C:\Users\X5\Desktop\diplomka\en\introduction.aux)
+(C:\Users\X5\Desktop\diplomka\en\relatedWorks.aux)
 (C:\Users\X5\Desktop\diplomka\en\introductionWavelets.aux)
 (C:\Users\X5\Desktop\diplomka\en\outline.aux)
 (C:\Users\X5\Desktop\diplomka\en\details.aux)
@@ -406,7 +407,7 @@ o.pdf ../img/logo.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<../img/logo-eps-converted-to.pdf, id=63, 371.3875pt x 366.36874pt>
+<../img/logo-eps-converted-to.pdf, id=67, 371.3875pt x 366.36874pt>
 File: ../img/logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../img/logo-eps-converted-to.pdf>
@@ -430,28 +431,33 @@ l.246 \include{introduction}
 
 
 ]
-(C:\Users\X5\Desktop\diplomka\en\introduction.tex
-Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+(C:\Users\X5\Desktop\diplomka\en\introduction.texpdfTeX warning (ext4): destina
+tion with the same identifier (name{page.2}) has been already used, duplicate i
+gnored
 <to be read again> 
                    \relax 
-l.9 A
-     s we already stated, we did not find any paper which solves exactly our...
-[2
+l.13 
+      [2
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 
-      [3]pdfTeX warning (ext4): destination with the same identifier (name{page
-.4}) has been already used, duplicate ignored
+l.17 
+      [3])pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 
-      [4]) [5] (C:\Users\X5\Desktop\diplomka\en\introductionWavelets.tex
+l.246 \include{introduction}
+                             [4]
+(C:\Users\X5\Desktop\diplomka\en\relatedWorks.tex
+Chapter 1.
+[5
+
+
+
+]) [6] [7] (C:\Users\X5\Desktop\diplomka\en\introductionWavelets.tex
 Chapter 2.
 
 Overfull \hbox (27.21071pt too wide) in paragraph at lines 5--5
@@ -464,93 +470,93 @@ Overfull \hbox (2.81499pt too wide) in paragraph at lines 14--15
 pendent - the smoother
  []
 
-[6
+[8
 
 
 
-] [7]
+] [9]
 Overfull \hbox (13.05087pt too wide) in paragraph at lines 41--41
 []\OT1/cmr/bx/n/17.28 Comparisons be-tween the wavelets, C-BDAM
  []
 
-<figures/cbdam_lifting.png, id=178, 306.39468pt x 375.65344pt>
+<figures/cbdam_lifting.png, id=199, 306.39468pt x 375.65344pt>
 File: figures/cbdam_lifting.png Graphic file (type png)
 
 <use figures/cbdam_lifting.png>
 Package pdftex.def Info: figures/cbdam_lifting.png used on input line 63.
 (pdftex.def)             Requested size: 115.51767pt x 141.62631pt.
-) [8] [9 <C:/Users/X5/Desktop/diplomka/en/figures/cbdam_lifting.png>] (C:\Users
-\X5\Desktop\diplomka\en\outline.tex
+) [10] [11 <C:/Users/X5/Desktop/diplomka/en/figures/cbdam_lifting.png>] (C:\Use
+rs\X5\Desktop\diplomka\en\outline.tex
 Chapter 3.
-[10
-
-
-
-]) [11] (C:\Users\X5\Desktop\diplomka\en\details.tex
-Chapter 4.
-
-LaTeX Warning: Reference `???' on page 12 undefined on input line 6.
-
 [12
 
 
 
-] <figures/subst.pdf, id=225, 597.50786pt x 845.04686pt>
+]) [13] (C:\Users\X5\Desktop\diplomka\en\details.tex
+Chapter 4.
+
+LaTeX Warning: Reference `???' on page 14 undefined on input line 6.
+
+[14
+
+
+
+] <figures/subst.pdf, id=244, 597.50786pt x 845.04686pt>
 File: figures/subst.pdf Graphic file (type pdf)
 
 <use figures/subst.pdf>
 Package pdftex.def Info: figures/subst.pdf used on input line 23.
 (pdftex.def)             Requested size: 115.51767pt x 123.6013pt.
- [13]
-<figures/bcomp.pdf, id=236, 597.50786pt x 845.04686pt>
+ [15]
+<figures/bcomp.pdf, id=256, 597.50786pt x 845.04686pt>
 File: figures/bcomp.pdf Graphic file (type pdf)
  <use figures/bcomp.pdf>
 Package pdftex.def Info: figures/bcomp.pdf used on input line 39.
 (pdftex.def)             Requested size: 123.77074pt x 97.89203pt.
 
-[14 <C:/Users/X5/Desktop/diplomka/en/figures/subst.pdf> <C:/Users/X5/Desktop/di
+[16 <C:/Users/X5/Desktop/diplomka/en/figures/subst.pdf> <C:/Users/X5/Desktop/di
 plomka/en/figures/bcomp.pdf>]
 Overfull \hbox (8.97661pt too wide) in paragraph at lines 53--54
 []\OT1/cmr/m/n/12 C-BDAM us-es the larg-er or-der 4 Neville in-ter-po-lat-ing f
 il-ter to pre-dict the heights
  []
 
-<figures/artif_orig0.png, id=264, 70.76437pt x 36.135pt>
+<figures/artif_orig0.png, id=284, 70.76437pt x 36.135pt>
 File: figures/artif_orig0.png Graphic file (type png)
 
 <use figures/artif_orig0.png>
 Package pdftex.def Info: figures/artif_orig0.png used on input line 61.
 (pdftex.def)             Requested size: 95.36472pt x 70.26662pt.
 
-<figures/artif_orig1.png, id=265, 67.75313pt x 39.14626pt>
+<figures/artif_orig1.png, id=285, 67.75313pt x 39.14626pt>
 File: figures/artif_orig1.png Graphic file (type png)
 
 <use figures/artif_orig1.png>
 Package pdftex.def Info: figures/artif_orig1.png used on input line 62.
 (pdftex.def)             Requested size: 95.36028pt x 70.27263pt.
 
-<figures/artif_four0.png, id=266, 70.76437pt x 36.135pt>
+<figures/artif_four0.png, id=286, 70.76437pt x 36.135pt>
 File: figures/artif_four0.png Graphic file (type png)
 
 <use figures/artif_four0.png>
 Package pdftex.def Info: figures/artif_four0.png used on input line 63.
 (pdftex.def)             Requested size: 95.36472pt x 70.26662pt.
 
-<figures/artif_four1.png, id=267, 67.75313pt x 39.14626pt>
+<figures/artif_four1.png, id=287, 67.75313pt x 39.14626pt>
 File: figures/artif_four1.png Graphic file (type png)
 
 <use figures/artif_four1.png>
 Package pdftex.def Info: figures/artif_four1.png used on input line 64.
 (pdftex.def)             Requested size: 95.36028pt x 70.27263pt.
 
-<figures/artif_twelve0.png, id=268, 70.76437pt x 36.135pt>
+<figures/artif_twelve0.png, id=288, 70.76437pt x 36.135pt>
 File: figures/artif_twelve0.png Graphic file (type png)
 
 <use figures/artif_twelve0.png>
 Package pdftex.def Info: figures/artif_twelve0.png used on input line 65.
 (pdftex.def)             Requested size: 95.36472pt x 70.26662pt.
 
-<figures/artif_twelve1.png, id=269, 67.75313pt x 39.14626pt>
+<figures/artif_twelve1.png, id=289, 67.75313pt x 39.14626pt>
 File: figures/artif_twelve1.png Graphic file (type png)
 
 <use figures/artif_twelve1.png>
@@ -561,35 +567,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
-<figures/artif_change_orig0.png, id=270, 64.24pt x 64.24pt>
+<figures/artif_change_orig0.png, id=290, 64.24pt x 64.24pt>
 File: figures/artif_change_orig0.png Graphic file (type png)
 
 <use figures/artif_change_orig0.png>
 Package pdftex.def Info: figures/artif_change_orig0.png used on input line 74.
 (pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
 
-<figures/artif_change_orig1.png, id=271, 64.24pt x 64.24pt>
+<figures/artif_change_orig1.png, id=291, 64.24pt x 64.24pt>
 File: figures/artif_change_orig1.png Graphic file (type png)
 
 <use figures/artif_change_orig1.png>
 Package pdftex.def Info: figures/artif_change_orig1.png used on input line 75.
 (pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
 
-<figures/artif_change_four0.png, id=272, 64.24pt x 64.24pt>
+<figures/artif_change_four0.png, id=292, 64.24pt x 64.24pt>
 File: figures/artif_change_four0.png Graphic file (type png)
 
 <use figures/artif_change_four0.png>
 Package pdftex.def Info: figures/artif_change_four0.png used on input line 76.
 (pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
 
-<figures/artif_change_four1.png, id=273, 64.24pt x 64.24pt>
+<figures/artif_change_four1.png, id=293, 64.24pt x 64.24pt>
 File: figures/artif_change_four1.png Graphic file (type png)
 
 <use figures/artif_change_four1.png>
 Package pdftex.def Info: figures/artif_change_four1.png used on input line 77.
 (pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
 
-<figures/artif_change_twelve0.png, id=274, 64.24pt x 64.24pt>
+<figures/artif_change_twelve0.png, id=294, 64.24pt x 64.24pt>
 File: figures/artif_change_twelve0.png Graphic file (type png)
 
 <use figures/artif_change_twelve0.png>
@@ -597,7 +603,7 @@ Package pdftex.def Info: figures/artif_change_twelve0.png used on input line 78
 .
 (pdftex.def)             Requested size: 95.36385pt x 95.36385pt.
 
-<figures/artif_change_twelve1.png, id=275, 64.24pt x 64.24pt>
+<figures/artif_change_twelve1.png, id=295, 64.24pt x 64.24pt>
 File: figures/artif_change_twelve1.png Graphic file (type png)
 
 <use figures/artif_change_twelve1.png>
@@ -609,31 +615,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--80
 
  []
 
-[15] <figures/artifs_theory.pdf, id=285, 597.50786pt x 845.04686pt>
+[17] <figures/artifs_theory.pdf, id=304, 597.50786pt x 845.04686pt>
 File: figures/artifs_theory.pdf Graphic file (type pdf)
 
 <use figures/artifs_theory.pdf>
 Package pdftex.def Info: figures/artifs_theory.pdf used on input line 87.
 (pdftex.def)             Requested size: 185.65297pt x 75.58896pt.
 
-<figures/artifs_theory2.pdf, id=287, 597.50786pt x 845.04686pt>
+<figures/artifs_theory2.pdf, id=306, 597.50786pt x 845.04686pt>
 File: figures/artifs_theory2.pdf Graphic file (type pdf)
 
 <use figures/artifs_theory2.pdf>
 Package pdftex.def Info: figures/artifs_theory2.pdf used on input line 88.
 (pdftex.def)             Requested size: 185.65297pt x 75.58896pt.
 
-<figures/ccomp.pdf, id=291, 597.50786pt x 845.04686pt>
+<figures/ccomp.pdf, id=310, 597.50786pt x 845.04686pt>
 File: figures/ccomp.pdf Graphic file (type pdf)
  <use figures/ccomp.pdf>
 Package pdftex.def Info: figures/ccomp.pdf used on input line 96.
 (pdftex.def)             Requested size: 123.77074pt x 97.89203pt.
 
-[16 <C:/Users/X5/Desktop/diplomka/en/figures/artif_orig0.png> <C:/Users/X5/Desk
+[18 <C:/Users/X5/Desktop/diplomka/en/figures/artif_orig0.png> <C:/Users/X5/Desk
 top/diplomka/en/figures/artif_orig1.png> <C:/Users/X5/Desktop/diplomka/en/figur
 es/artif_four0.png> <C:/Users/X5/Desktop/diplomka/en/figures/artif_four1.png> <
 C:/Users/X5/Desktop/diplomka/en/figures/artif_twelve0.png> <C:/Users/X5/Desktop
-/diplomka/en/figures/artif_twelve1.png>] [17 <C:/Users/X5/Desktop/diplomka/en/f
+/diplomka/en/figures/artif_twelve1.png>] [19 <C:/Users/X5/Desktop/diplomka/en/f
 igures/artifs_theory.pdf> <C:/Users/X5/Desktop/diplomka/en/figures/artifs_theor
 y2.pdf> <C:/Users/X5/Desktop/diplomka/en/figures/artif_change_orig0.png (PNG co
 py)> <C:/Users/X5/Desktop/diplomka/en/figures/artif_change_orig1.png (PNG copy)
@@ -641,21 +647,21 @@ py)> <C:/Users/X5/Desktop/diplomka/en/figures/artif_change_orig1.png (PNG copy)
 C:/Users/X5/Desktop/diplomka/en/figures/artif_change_four1.png (PNG copy)> <C:/
 Users/X5/Desktop/diplomka/en/figures/artif_change_twelve0.png (PNG copy)> <C:/U
 sers/X5/Desktop/diplomka/en/figures/artif_change_twelve1.png (PNG copy)>]
-<figures/extc.pdf, id=328, 597.50786pt x 845.04686pt>
+<figures/extc.pdf, id=347, 597.50786pt x 845.04686pt>
 File: figures/extc.pdf Graphic file (type pdf)
  <use figures/extc.pdf>
 Package pdftex.def Info: figures/extc.pdf used on input line 111.
 (pdftex.def)             Requested size: 185.65297pt x 130.99016pt.
 )
-[18 <C:/Users/X5/Desktop/diplomka/en/figures/ccomp.pdf> <C:/Users/X5/Desktop/di
-plomka/en/figures/extc.pdf>] [19]
+[20 <C:/Users/X5/Desktop/diplomka/en/figures/ccomp.pdf> <C:/Users/X5/Desktop/di
+plomka/en/figures/extc.pdf>] [21]
 (C:\Users\X5\Desktop\diplomka\en\comparison.tex
 Chapter 5.
-[20
+[22
 
 
 
-]) [21] (C:\Users\X5\Desktop\diplomka\en\results.tex
+]) [23] (C:\Users\X5\Desktop\diplomka\en\results.tex
 Chapter 6.
 
 Overfull \hbox (0.65587pt too wide) in paragraph at lines 5--6
@@ -663,25 +669,25 @@ Overfull \hbox (0.65587pt too wide) in paragraph at lines 5--6
  of 64:1 on the same
  []
 
-[22
+[24
 
 
 
-] <figures/samp_orig.png, id=382, 74.52844pt x 74.52844pt>
+] <figures/samp_orig.png, id=401, 74.52844pt x 74.52844pt>
 File: figures/samp_orig.png Graphic file (type png)
 
 <use figures/samp_orig.png>
 Package pdftex.def Info: figures/samp_orig.png used on input line 12.
 (pdftex.def)             Requested size: 165.02345pt x 165.05135pt.
 
-<figures/samp_comp.png, id=383, 74.52844pt x 74.52844pt>
+<figures/samp_comp.png, id=402, 74.52844pt x 74.52844pt>
 File: figures/samp_comp.png Graphic file (type png)
 
 <use figures/samp_comp.png>
 Package pdftex.def Info: figures/samp_comp.png used on input line 13.
 (pdftex.def)             Requested size: 165.02345pt x 165.05135pt.
 
-<figures/samp_diff.png, id=384, 75.28125pt x 74.52844pt>
+<figures/samp_diff.png, id=403, 75.28125pt x 74.52844pt>
 File: figures/samp_diff.png Graphic file (type png)
 
 <use figures/samp_diff.png>
@@ -692,7 +698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 [][] []
  []
 
-<figures/dim_64_amp_16_lon_4_horizontal_orig.png, id=385, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_4_horizontal_orig.png, id=404, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_4_horizontal_orig.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_4_horizontal_orig.png>
@@ -700,7 +706,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_orig.png used o
 n input line 22.
 (pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
 
-<figures/dim_64_amp_16_lon_16_horizontal_orig.png, id=386, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_16_horizontal_orig.png, id=405, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_16_horizontal_orig.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_16_horizontal_orig.png>
@@ -708,7 +714,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_orig.png used
 on input line 23.
 (pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
 
-<figures/dim_64_amp_16_lon_4_horizontal_out.png, id=387, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_4_horizontal_out.png, id=406, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_4_horizontal_out.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_4_horizontal_out.png>
@@ -716,7 +722,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_out.png used on
  input line 24.
 (pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
 
-<figures/dim_64_amp_16_lon_16_horizontal_out.png, id=388, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_16_horizontal_out.png, id=407, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_16_horizontal_out.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_16_horizontal_out.png>
@@ -724,7 +730,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_out.png used o
 n input line 25.
 (pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
 
-<figures/dim_64_amp_16_lon_4_horizontal_diff.png, id=389, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_4_horizontal_diff.png, id=408, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_4_horizontal_diff.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_4_horizontal_diff.png>
@@ -732,7 +738,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_diff.png used o
 n input line 26.
 (pdftex.def)             Requested size: 92.82962pt x 92.83684pt.
 
-<figures/dim_64_amp_16_lon_16_horizontal_diff.png, id=390, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_16_horizontal_diff.png, id=409, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_16_horizontal_diff.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_16_horizontal_diff.png>
@@ -749,9 +755,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-) [23 <C:/Users/X5/Desktop/diplomka/en/figures/samp_orig.png> <C:/Users/X5/Desk
+) [25 <C:/Users/X5/Desktop/diplomka/en/figures/samp_orig.png> <C:/Users/X5/Desk
 top/diplomka/en/figures/samp_comp.png> <C:/Users/X5/Desktop/diplomka/en/figures
-/samp_diff.png>] [24 <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp_16_lon
+/samp_diff.png>] [26 <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp_16_lon
 _4_horizontal_orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp_16_
 lon_16_horizontal_orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/dim_64_amp
 _16_lon_4_horizontal_out.png (PNG copy)> <C:/Users/X5/Desktop/diplomka/en/figur
@@ -760,31 +766,32 @@ lomka/en/figures/dim_64_amp_16_lon_4_horizontal_diff.png> <C:/Users/X5/Desktop/
 diplomka/en/figures/dim_64_amp_16_lon_16_horizontal_diff.png>]
 (C:\Users\X5\Desktop\diplomka\en\conclusion.tex
 Chapter 7.
-) [25
+) [27
 
 
 
-] (C:\Users\X5\Desktop\diplomka\en\epilog.tex) [26
+] (C:\Users\X5\Desktop\diplomka\en\epilog.tex) [28
 
 
 
 ]
-(C:\Users\X5\Desktop\diplomka\en\thesis.bbl [27
+(C:\Users\X5\Desktop\diplomka\en\thesis.bbl [29
 
-] [28
+] [30
 
-]) [29] [30
+]) [31] [32
 
-] [31
+] [33
 
-] [32
+] [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
 
 (C:\Users\X5\Desktop\diplomka\en\thesis.aux
 (C:\Users\X5\Desktop\diplomka\en\introduction.aux)
+(C:\Users\X5\Desktop\diplomka\en\relatedWorks.aux)
 (C:\Users\X5\Desktop\diplomka\en\introductionWavelets.aux)
 (C:\Users\X5\Desktop\diplomka\en\outline.aux)
 (C:\Users\X5\Desktop\diplomka\en\details.aux)
@@ -792,24 +799,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
 (C:\Users\X5\Desktop\diplomka\en\results.aux)
 (C:\Users\X5\Desktop\diplomka\en\conclusion.aux)
 (C:\Users\X5\Desktop\diplomka\en\epilog.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 62C103C2D99FCD74BA271FA2CF495BB6;2394.
+(rerunfilecheck)             Checksum: 24B4EFD2150CD2BA4F689FF7DAE5D977;2508.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
- 9481 strings out of 493921
- 135291 string characters out of 3144884
- 206016 words of memory out of 3000000
- 12524 multiletter control sequences out of 15000+200000
+ 9499 strings out of 493921
+ 135716 string characters out of 3144884
+ 206489 words of memory out of 3000000
+ 12530 multiletter control sequences out of 15000+200000
  13194 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,8n,30p,2336b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,30p,2337b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
@@ -824,9 +831,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb>
-Output written on thesis.pdf (36 pages, 635772 bytes).
+Output written on thesis.pdf (38 pages, 641320 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

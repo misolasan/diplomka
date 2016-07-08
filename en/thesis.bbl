@@ -48,12 +48,23 @@ Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
 \newblock {\em Computer Graphics Forum}, 25(3):333--342, September 2006.
 \newblock Proc. Eurographics 2006.
 
+\bibitem{basics}
+John~F. Hughes, Andries van Dam, Morgan McGuire, David~F. Sklar, James~D.
+  Foley, Steven~K. Feiner, and Kurt Akeley.
+\newblock {\em Computer Graphics - Principles and Practice, 3rd Edition}.
+\newblock Addison-Wesley, 2014.
+
 \bibitem{meshesGPU2}
 Peter Lindstrom and Jonathan~D. Cohen.
 \newblock On-the-fly decompression and rendering of multiresolution terrain.
 \newblock In {\em Proceedings of the 2010 Symposium on Interactive 3D Graphics,
   {SI3D} 2010, February 19-21, 2010, Washington, DC, {USA}}, pages 65--73,
   2010.
+
+\bibitem{entropy2}
+David J.~C. MacKay.
+\newblock {\em Information theory, inference, and learning algorithms}.
+\newblock Cambridge University Press, 2003.
 
 \bibitem{jpeg2000terrain}
 Ricardo Olanda, Mariano Perez, Juan~Manuel Orduna, and Silvia Rueda.
@@ -76,6 +87,12 @@ Dietmar Saupe and Raouf Hamzaoui.
 Gregory~K. Wallace.
 \newblock The jpeg still picture compression standard.
 \newblock {\em Communications of the ACM}, pages 30--44, 1991.
+
+\bibitem{entropy1}
+Thomas Wiegand and Heiko Schwarz.
+\newblock Source coding: Part {I} of fundamentals of source and video coding.
+\newblock {\em Foundations and Trends in Signal Processing}, 4(1-2):1--222,
+  2010.
 
 \bibitem{two-stage}
 Sehoon Yea and W.A. Pearlman.

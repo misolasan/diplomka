@@ -116,7 +116,7 @@ Department of Software and Computer Science Education
 
 Supervisor of the master thesis: & Mgr. Martin Kahoun \\
 \noalign{\vspace{2mm}}
-Study programme: & Informatics \\
+Study programme: & Computer science \\
 \noalign{\vspace{2mm}}
 Specialization: & Software Systems \\ 
 \end{tabular}
@@ -217,7 +217,7 @@ Mgr. Martin Kahoun, Charles University in Prague
 % mimo MFF UK v angliètinì
 
 Abstract:
-The goal of this thesis is to design a~suitable method for lossy compression of heightmap terrain data. This method should accept blocks of float samples of dimensions $2^n x 2^n$ at the input, for which it should be able to perform progressive mip-maps (progressive lower-resolution representations) decompression. For every mip-map, it should keep the reconstructed data within a~certain maximum absolute per-sample error bound in the~unit of meters adjustable by the user. Given these constraints, it should be as efficient as possible. Our method is inspired by the~second generation of progressive wavelet-based compression scheme modified to satisfy the~maximum-error constraint. We simplified this scheme by factoring out unnecessary computations in order to improve the~efficiency. Our method can compress a~256x256 block in about 30 ms and decompress it in about 1 ms. Thanks to these attributes, the method can be used in a~real-time planet renderer. It achieves the compression ratio of 37:1 on the whole Earth 90m/sample terrain dataset transformed and separated into square blocks, while respecting the maximum error of 5m.
+The goal of this thesis is to design a~suitable method for lossy compression of heightmap terrain data. This method should accept blocks of float samples of dimensions $2^n x 2^n$ as an~input, for which it should be able to perform progressive mip-maps (progressive lower-resolution representations) decompression. For every mip-map, it should keep the reconstructed data within a~certain maximum absolute per-sample error bound in the~unit of meters adjustable by the user. Given these constraints, it should be as efficient as possible. Our method is inspired by the~second generation of progressive wavelet-based compression scheme modified to satisfy the~maximum-error constraint. We simplified this scheme by factoring out unnecessary computations in order to improve the~efficiency. Our method can compress a~256x256 block in about 30 ms and decompress it in about 1 ms. Thanks to these attributes, the method can be used in a~real-time planet renderer. It achieves the compression ratio of 37:1 on the whole Earth 90m/sample terrain dataset transformed and separated into square blocks, while respecting the maximum error of 5m.
 % abstrakt v rozsahu 80-200 slov v angliètinì; nejedná se však o pøeklad
 % zadání diplomové práce\textsl{}
 
@@ -244,6 +244,7 @@ guaranteed maximum error bound
 
 %%% Jednotlivé kapitoly práce jsou pro pøehlednost uloženy v samostatných souborech
 \include{introduction}
+\include{relatedWorks}
 \include{introductionWavelets}
 \include{outline}
 \include{details}
