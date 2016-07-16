@@ -35,12 +35,68 @@
 \usepackage{fixmath}
 \usepackage{amsmath}
 
+%%% Basic information on the thesis
+
+% Thesis title in English (exactly as in the formal assignment)
+\def\ThesisTitle{Height map compression techniques}
+
+% Author of the thesis
+\def\ThesisAuthor{Bc. Michal Lašan}
+
+% Year when the thesis is submitted
+\def\YearSubmitted{2016}
+
+% Name of the department or institute, where the work was officially assigned
+% (according to the Organizational Structure of MFF UK in English,
+% or a full name of a department outside MFF)
+\def\Department{Department of Software and Computer Science Education}
+
+% Is it a department (katedra), or an institute (ústav)?
+\def\DeptType{Department}
+
+
+% Thesis supervisor: name, surname and titles
+\def\Supervisor{Mgr. Martin Kahoun}
+
+% Supervisor's department (again according to Organizational structure of MFF)
+\def\SupervisorsDepartment{Department of Software and Computer Science Education}
+
+% Study programme and specialization
+\def\StudyProgramme{Computer science}
+\def\StudyBranch{Software Systems}
+
+% An optional dedication: you can thank whomever you wish (your supervisor,
+% consultant, a person who lent the software, etc.)
+\def\Dedication{%
+	Dedication.
+}
+
+% Abstract (recommended length around 80-200 words; this is not a copy of your thesis assignment!)
+\def\Abstract{%
+	The goal of this thesis is to design a~suitable method for lossy compression of heightmap terrain data. This method should accept blocks of float samples of dimensions $2^n x 2^n$ as an~input, for which it should be able to perform progressive mip-maps (progressive lower-resolution representations) decompression. For every mip-map, it should keep the reconstructed data within a~certain maximum absolute per-sample error bound in the~unit of meters adjustable by the user. Given these constraints, it should be as efficient as possible. Our method is inspired by the~second generation of progressive wavelet-based compression scheme modified to satisfy the~maximum-error constraint. We simplified this scheme by factoring out unnecessary computations in order to improve the~efficiency. Our method can compress a~256x256 block in about 30 ms and decompress it in about 1 ms. Thanks to these attributes, the method can be used in a~real-time planet renderer. It achieves the compression ratio of 37:1 on the whole Earth 90m/sample terrain dataset transformed and separated into square blocks, while respecting the maximum error of 5m.
+}
+
+% 3 to 5 keywords (recommended), each enclosed in curly braces
+\def\Keywords{%
+heightmap,
+lossy,
+compression,
+mip-map,
+guaranteed maximum error bound
+}
+
 %% Balíèek hyperref, kterým jdou vyrábìt klikací odkazy v PDF,
 %% ale hlavnì ho používáme k uložení metadat do PDF (vèetnì obsahu).
 %% POZOR, nezapomeòte vyplnit jméno práce a autora.
-\usepackage[unicode]{hyperref}   % Musí být za všemi ostatními balíèky
-\hypersetup{pdftitle=Název práce}
-\hypersetup{pdfauthor=Michal Lašan}
+%\usepackage[unicode]{hyperref}   % Musí být za všemi ostatními balíèky
+%\hypersetup{pdftitle=Název práce}
+%\hypersetup{pdfauthor=Michal Lašan}
+\usepackage[pdftex,unicode]{hyperref}   % Must follow all other packages
+\hypersetup{breaklinks=true}
+\hypersetup{pdftitle={\ThesisTitle}}
+\hypersetup{pdfauthor={\ThesisAuthor}}
+\hypersetup{pdfkeywords=\Keywords}
+\hypersetup{urlcolor=blue}
 
 %%% Drobné úpravy stylu
 
@@ -61,185 +117,26 @@
 }}
 \makeatother
 
+\newcommand*{\captionsource}[2]{%
+	\caption[{#1}]{%
+		#1%
+		\\\hspace{\linewidth}%
+		\textbf{Source:} #2%
+	}%
+}
+
 % Toto makro definuje kapitolu, která není oèíslovaná, ale je uvedena v obsahu.
 \def\chapwithtoc#1{
 \chapter*{#1}
 \addcontentsline{toc}{chapter}{#1}
 }
 
+% Draw black "slugs" whenever a line overflows, so that we can spot it easily.
+\overfullrule=1mm
+
 \begin{document}
+\include{title}
 
-% Trochu volnìjší nastavení dìlení slov, než je default.
-\lefthyphenmin=2
-\righthyphenmin=2
-
-%%% Titulní strana práce
-
-\pagestyle{empty}
-\begin{center}
-
-\large
-
-Charles University in Prague
-
-\medskip
-
-Faculty of Mathematics and Physics
-
-\vfill
-
-{\bf\Large MASTER THESIS}
-
-\vfill
-
-\centerline{\mbox{\includegraphics[width=60mm]{../img/logo.eps}}}
-
-\vfill
-\vspace{5mm}
-
-{\LARGE Bc. Michal Lašan}
-
-\vspace{15mm}
-
-% Název práce pøesnì podle zadání
-{\LARGE\bfseries Height map compression techniques}
-
-\vfill
-
-% Název katedry nebo ústavu, kde byla práce oficiálnì zadána
-% (dle Organizaèní struktury MFF UK)
-Department of Software and Computer Science Education
-
-\vfill
-
-\begin{tabular}{rl}
-
-Supervisor of the master thesis: & Mgr. Martin Kahoun \\
-\noalign{\vspace{2mm}}
-Study programme: & Computer science \\
-\noalign{\vspace{2mm}}
-Specialization: & Software Systems \\ 
-\end{tabular}
-
-\vfill
-
-% Zde doplòte rok
-Prague 2016
-
-\end{center}
-
-\newpage
-
-%%% Následuje vevázaný list -- kopie podepsaného "Zadání diplomové práce".
-%%% Toto zadání NENÍ souèástí elektronické verze práce, nescanovat.
-
-%%% Na tomto místì mohou být napsána pøípadná podìkování (vedoucímu práce,
-%%% konzultantovi, tomu, kdo zapùjèil software, literaturu apod.)
-
-\openright
-
-\noindent
-Dedication.
-
-\newpage
-
-%%% Strana s èestným prohlášením k diplomové práci
-
-\vglue 0pt plus 1fill
-
-\noindent
-I declare that I carried out this master thesis independently, and only with the cited
-sources, literature and other professional sources.
-
-\medskip\noindent
-I understand that my work relates to the rights and obligations under the Act No.
-121/2000 Coll., the Copyright Act, as amended, in particular the fact that the Charles
-University in Prague has the right to conclude a license agreement on the use of this
-work as a school work pursuant to Section 60 paragraph 1 of the Copyright Act.
-
-\vspace{10mm}
-
-\hbox{\hbox to 0.5\hsize{%
-In ........ date ............
-\hss}\hbox to 0.5\hsize{%
-signature of the author
-\hss}}
-
-\vspace{20mm}
-\newpage
-
-%%% Povinná informaèní strana diplomové práce
-
-\vbox to 0.5\vsize{
-\setlength\parindent{0mm}
-\setlength\parskip{5mm}
-
-Název práce:
-Komprese výškových map
-% pøesnì dle zadání
-
-Autor:
-Michal Lašan
-
-Katedra:  % Pøípadnì Ústav:
-Kabinet software a výuky informatiky
-% dle Organizaèní struktury MFF UK
-
-Vedoucí diplomové práce:
-Mgr. Martin Kahoun, Univerzita Karlova v Praze
-% dle Organizaèní struktury MFF UK, pøípadnì plný název pracovištì mimo MFF UK
-
-Abstrakt:
-% abstrakt v rozsahu 80-200 slov; nejedná se však o opis zadání diplomové práce
-
-
-Klíèová slova:
-% 3 až 5 klíèových slov
-
-\vss}\nobreak\vbox to 0.49\vsize{
-\setlength\parindent{0mm}
-\setlength\parskip{5mm}
-
-Title:
-Height map compression techniques
-% pøesný pøeklad názvu práce v angliètinì
-
-Author:
-Michal Lašan
-
-Department:
-Department of Software and Computer Science Education
-% dle Organizaèní struktury MFF UK v angliètinì
-
-Supervisor:
-Mgr. Martin Kahoun, Charles University in Prague
-% dle Organizaèní struktury MFF UK, pøípadnì plný název pracovištì
-% mimo MFF UK v angliètinì
-
-Abstract:
-The goal of this thesis is to design a~suitable method for lossy compression of heightmap terrain data. This method should accept blocks of float samples of dimensions $2^n x 2^n$ as an~input, for which it should be able to perform progressive mip-maps (progressive lower-resolution representations) decompression. For every mip-map, it should keep the reconstructed data within a~certain maximum absolute per-sample error bound in the~unit of meters adjustable by the user. Given these constraints, it should be as efficient as possible. Our method is inspired by the~second generation of progressive wavelet-based compression scheme modified to satisfy the~maximum-error constraint. We simplified this scheme by factoring out unnecessary computations in order to improve the~efficiency. Our method can compress a~256x256 block in about 30 ms and decompress it in about 1 ms. Thanks to these attributes, the method can be used in a~real-time planet renderer. It achieves the compression ratio of 37:1 on the whole Earth 90m/sample terrain dataset transformed and separated into square blocks, while respecting the maximum error of 5m.
-% abstrakt v rozsahu 80-200 slov v angliètinì; nejedná se však o pøeklad
-% zadání diplomové práce\textsl{}
-
-Keywords:
-heightmap,
-lossy,
-compression,
-mip-map,
-guaranteed maximum error bound
-% 3 až 5 klíèových slov v angliètinì
-
-\vss}
-
-\newpage
-
-%%% Strana s automaticky generovaným obsahem diplomové práce. U matematických
-%%% prací je pøípustné, aby seznam tabulek a zkratek, existují-li, byl umístìn
-%%% na zaèátku práce, místo na jejím konci.
-
-\openright
-\pagestyle{plain}
-\setcounter{page}{1}
 \tableofcontents
 
 %%% Jednotlivé kapitoly práce jsou pro pøehlednost uloženy v samostatných souborech
@@ -251,12 +148,6 @@ guaranteed maximum error bound
 \include{comparison}
 \include{results}
 \include{conclusion}
-
-% Ukázka použití nìkterých konstrukcí LateXu (odkomentujte, chcete-li)
-% \include{example}
-
-\include{epilog}
-\cite{cbdam}
 
 %%% Seznam použité literatury
 \bibliographystyle{plain}

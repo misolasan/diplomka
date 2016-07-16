@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{fractalChar}
+C.~Andújar, A.~Chica, M.~A. Vico, S.~Moya, and P.~Brunet.
+\newblock Inexpensive reconstruction and rendering of realistic roadside
+  landscapes.
+\newblock {\em Computer Graphics Forum}, 33(6):101--117, 2014.
+
 \bibitem{waveletsTutorial}
 P.~M. Bentley and J.~T.~E. McDonnell.
 \newblock Wavelet transforms: an introduction.
@@ -17,6 +23,10 @@ Paolo Cignoni, Fabio Ganovelli, Enrico Gobbetti, Fabio Marton, Federico
 Roger~L. Claypoole, Geoffrey~M. Davis, Wim Sweldens, and Richard~G. Baraniuk.
 \newblock Nonlinear wavelet transforms for image coding via lifting.
 \newblock {\em IEEE Trans. Image Processing}, 12:1449--1459, 2003.
+
+\bibitem{wavelet_2d_pyramid}
+Alessio Damato.
+\newblock 2-level wavelet transform-lichtenstein, 2007.
 
 \bibitem{waveletsEquiv}
 Ingrid Daubechies and Wim Sweldens.
@@ -65,6 +75,11 @@ Peter Lindstrom and Jonathan~D. Cohen.
 David J.~C. MacKay.
 \newblock {\em Information theory, inference, and learning algorithms}.
 \newblock Cambridge University Press, 2003.
+
+\bibitem{basicFormats}
+John Miano.
+\newblock {\em Compressed Image File Formats: JPEG, PNG, GIF, XBM, BMP}.
+\newblock ACM Press/Addison-Wesley Publishing Co., New York, NY, USA, 1999.
 
 \bibitem{jpeg2000terrain}
 Ricardo Olanda, Mariano Perez, Juan~Manuel Orduna, and Silvia Rueda.
