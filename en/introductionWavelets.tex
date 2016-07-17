@@ -1,6 +1,6 @@
 \chapter{The~preliminaries}\label{chap:preliminaries}
 
-This chapter consists of three sections. In the~first one (\ref{sec:wavelets}), we will briefly and formally describe the~main principle and usage of second generation wavelet transformation methods which are relevant for this thesis. In the~second one (\ref{sec:wavelets_cbdam}), we will compare the~compression inside C-BDAM and our method to these methods. Even though C-BDAM is based on the~same principle, it differs from these methods a~bit, so we will describe the basic differences. Then we will perform the~same basic comparison with our proposed method. Our method differs from the~described wavelet scheme a~bit more, see Section~\ref{sec:top-down} for the~details.
+This chapter consists of three sections. In the~first one (\ref{sec:wavelets}), we will briefly and formally describe the~main principle and usage of second generation wavelet transformation methods which are relevant for this thesis. In the~second one (\ref{sec:wavelets_cbdam}), we will compare the~compression inside C-BDAM and our method to these methods. Even though C-BDAM is based on the~same principle, it differs from these methods a~bit, so we will describe the basic differences. Then we will perform the~same basic comparison with our proposed method. Our method differs from the~described wavelet scheme a~bit more, see Section~\ref{sec:top-down} for the~details. Finally, in Section~\ref{sec:lossless_comp}, we describe two most common approaches to lossless data compression which are both used in Zlib - a~free compression library which we use in the~implementation of our method.
 
 \section{The~introduction to second-generation wavelets}\label{sec:wavelets}
 Basically, there are two generations of wavelets. The~first generation uses dilated and translated wavelet function~\cite{waveletsTutorial} for computation. The~second one uses filter banks to perform high-pass and low-pass filtering~\cite{waveletsLifting}. The~computational equivalency of these two approaches has been proven~\cite{waveletsEquiv}. For this work, the~second generation of discrete wavelet transform methods is most relevant, so we will briefly describe it in this section in order to give the~reader an~idea of the~wavelet concept which is referred to in many places of this thesis. We will base this description on 1-dimensional input data. We will also briefly describe how the~transition of the~principle to 2-dimensional data, such as images, can be performed.
@@ -69,15 +69,14 @@ Note that if the~residuals $d$ were simply quantized after lifting and used in t
 
 \begin{figure}
 	\includegraphics[width=0.28\textwidth]{figures/cbdam_lifting.png}\centering
-	\captionsource{Lifting in C-BDAM - the~samples $x$ are split into the~even ones ($x_e$) which will become low-pass ($s$) and the~odd ones ($x_o$) which will become high-pass ($d$)}{C-BDAM~\cite{cbdam} (edited)}
+	\captionsource{Lifting in C-BDAM - the~samples $x$ are split into the~even ones ($x_e$) which will become low-pass ($s$) and the~odd ones ($x_o$) which will become high-pass ($d$)}
+	{C-BDAM~\cite{cbdam} (edited)}
 	\label{fig:cbdam_lifting}
 \end{figure}
 
-
-
 The~method proposed in this thesis is update-first and uses the~whole $x$ as the~input to $U$, but has several differences: the~size of $x_e$ and thus $s$ is not half the~size of $x$, but one fourth of it instead, just like in the~2D example of images, as each four neighboring pixels of $x$ are collapsed into one inside $s$~(Fig.~\ref{fig:subst}). Additionally, the~lifting is not complete, because the~prediction operator is not applied there and the~computation of residuals is not performed there either. The~correct residuals which already ensure the~satisfaction of the~maximum-error bound constraint are computed directly in the~second top-down pass, also utilizing the~prediction operator. Similarly to C-BDAM, the~computations inside this pass are identical to the~reconstruction of the~data, except for the~fact that during the~reconstruction, the~residuals are not computed anymore. Additionally, the~prediction operator is applied multiple times in one step of the~reconstruction which is explained in Chapter~\ref{chap:details}. The~rationale behind all these differences is explained in Chapter.~\ref{chap:cbdam_comp}.
 
-\section{Lossless compression}\label{sec:dictionary_compression}
+\section{Lossless compression}\label{sec:lossless_comp}
 
 Lossless compression decreases the~data size without any information loss. It is often used to compress quantized residuals - the~output of wavelet transform. In this section, we briefly describe two main approaches to such compression - Huffman coding and dictionary compression. We do this because both these approaches are used in Zlib - a~publicly available lossless compression library which we use in our method to losslessly compress the~quantized residuals. We chose it because it achieved the~best compression ratios on our data from among all publicly available lossless compression libraries. It is also quite fast. It firstly applies LZ77 to the~data and then Huffman coding. Both these approaches basically profit from the~redundancy of data, but in different ways.
 
@@ -97,6 +96,6 @@ This algorithm starts by assigning a~certain weight to each of the~characters co
 
 With the~tree built, we can easily compress the~data. However, it remains a~question how exactly. The~main advantage of the~coding should be that the~more frequent characters have shorter codes, so we definitely would not profit from putting each code regularly into one or more bytes. But how to represent distinct lengths then? Should we somehow store the~code's length before the~code itself? Would not it be quite an overkill? 
 
-Zlib comes with a~good solution - it constructs the~tree always in such way that no two characters have the~same code length. Thus, for the~subsequent decoding it is sufficient to store just the~lengths of the~codes. This is a~great solution, but did we need the~theory of Huffman coding here? This approach is practically equivalent to substituting each character with a~number. The~most frequent character is substituted by 1, the~second one by 2, etc.  
+Zlib comes with a~good solution - it constructs the~tree always in such way that no two characters have the~same code length. Thus, for the~subsequent decoding it is sufficient to store just the~lengths of the~codes. This is a~great solution, but did we need the~theory of Huffman coding here? This approach is practically equivalent to substituting each character with a~number. The~most frequent character is substituted by 1, the~second one by 2, etc. The~binary form of the~number is the~code of the~character. 
 
 

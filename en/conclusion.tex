@@ -8,7 +8,7 @@ We should also investigate the~possibility to perform the~decompression on GPU i
 	\item{right after the decompression of residuals}
 \end{enumerate}
 
-The~first possibility would imply that the~decompression performed by Zlib would have to be put onto GPU. As we already described in Sec.~???, Zlib contains both entropy and dictionary compression, so this would be really complicated. At the~end, we did not have time to try to do it.
+The~first possibility would imply that the~decompression performed by Zlib would have to be put onto GPU. As we already described in Sec.~\ref{sec:lossless}, Zlib contains both entropy and dictionary compression, so this would be really complicated. At the~end, we did not have time to try to do it.
 
 The~second possibility means less spared RAM, but still some, because, as we described in Sec.~\ref{sec:top-down}, before the~residuals are losslessly compressed they are packed - divided by their quantization interval, shifted, so they are all positive and then skewed to the~number of bits of the~largest value. So, right after their decompression by Zlib, they are still a~bit compressed. Theoreticcaly, their unpacking could be done on GPU. Then, the~subsequent reconstruction of a~larger mip-map from the~smaller one would have to be performed on GPU, too. The~ability to do this surely already depends on the~implementation of the~renderer. This is where we encountered a~problem.
 
