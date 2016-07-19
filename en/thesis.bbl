@@ -44,6 +44,15 @@ Dorde~M. Durdevic and Igor~I. Tartalja.
 \newblock Hfpac: {GPU} friendly height field parallel compression.
 \newblock {\em GeoInformatica}, 17(1):207--233, 2013.
 
+\bibitem{srtm}
+Tom~G. Farr, Paul~A. Rosen, Edward Caro, Robert Crippen, Riley Duren, Scott
+  Hensley, Michael Kobrick, Mimi Paller, Ernesto Rodriguez, Ladislav Roth,
+  David Seal, Scott Shaffer, Joanne Shimada, Jeffrey Umland, Marian Werner,
+  Michael Oskin, Douglas Burbank, and Douglas Alsdorf.
+\newblock The shuttle radar topography mission.
+\newblock {\em Reviews of Geophysics}, 45(2):n/a--n/a, 2007.
+\newblock RG2004.
+
 \bibitem{meshes}
 Thomas Gerstner.
 \newblock Multiresolution compression and visualization of global topographic
