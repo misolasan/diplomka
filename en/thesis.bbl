@@ -6,6 +6,13 @@ C.~Andújar, A.~Chica, M.~A. Vico, S.~Moya, and P.~Brunet.
   landscapes.
 \newblock {\em Computer Graphics Forum}, 33(6):101--117, 2014.
 
+\bibitem{gpuHuffman1}
+C.~A. Angulo, C.~D. Hernández, G.~Rincón, C.~A. Boada, J.~Castillo, and C.~A.
+  Fajardo.
+\newblock Accelerating huffman decoding of seismic data on gpus.
+\newblock In {\em Signal Processing, Images and Computer Vision (STSIVA), 2015
+  20th Symposium on}, pages 1--6, Sept 2015.
+
 \bibitem{waveletsTutorial}
 P.~M. Bentley and J.~T.~E. McDonnell.
 \newblock Wavelet transforms: an introduction.
@@ -23,6 +30,12 @@ Paolo Cignoni, Fabio Ganovelli, Enrico Gobbetti, Fabio Marton, Federico
 Roger~L. Claypoole, Geoffrey~M. Davis, Wim Sweldens, and Richard~G. Baraniuk.
 \newblock Nonlinear wavelet transforms for image coding via lifting.
 \newblock {\em IEEE Trans. Image Processing}, 12:1449--1459, 2003.
+
+\bibitem{gpuHuffmanCuda1}
+Robert~Louis Cloud, Matthew~L. Curry, H.~Lee Ward, Anthony Skjellum, and
+  Purushotham Bangalore.
+\newblock Accelerating lossless data compression with gpus.
+\newblock {\em CoRR}, abs/1107.1525, 2011.
 
 \bibitem{wavelet_2d_pyramid}
 Alessio Damato.
@@ -66,6 +79,10 @@ Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
   rendering.
 \newblock {\em Computer Graphics Forum}, 25(3):333--342, September 2006.
 \newblock Proc. Eurographics 2006.
+
+\bibitem{gpuLZ77Cuda1}
+Petr HLAVINKA.
+\newblock Kompresní algoritmus lz77 na gpu [online], 2012 [cit. 2016-07-23].
 
 \bibitem{basics}
 John~F. Hughes, Andries van Dam, Morgan McGuire, David~F. Sklar, James~D.
