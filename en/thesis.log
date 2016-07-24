@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  24 JUL 2016 13:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  24 JUL 2016 15:34
 entering extended mode
 **thesis.tex
 (C:\Users\X5\Desktop\diplomka\en\thesis.tex
@@ -466,7 +466,7 @@ File: figures/wavelet_2d_pyramid.png Graphic file (type png)
 Package pdftex.def Info: figures/wavelet_2d_pyramid.png used on input line 21.
 (pdftex.def)             Requested size: 412.56496pt x 412.5716pt.
 
-Overfull \hbox (3.11545pt too wide) in paragraph at lines 28--29
+Overfull \hbox (3.11545pt too wide) in paragraph at lines 27--28
 []\OT1/cmr/m/n/12 What makes these de-com-po-si-tions and back-ward com-po-si-t
 ions use-ful is the fact|
  []
@@ -476,7 +476,7 @@ opy)>] [12] <figures/cbdam_lifting.png, id=267, 306.39468pt x 375.65344pt>
 File: figures/cbdam_lifting.png Graphic file (type png)
 
 <use figures/cbdam_lifting.png>
-Package pdftex.def Info: figures/cbdam_lifting.png used on input line 71.
+Package pdftex.def Info: figures/cbdam_lifting.png used on input line 70.
 (pdftex.def)             Requested size: 165.02345pt x 202.32822pt.
  [13 <C:/Users/X5/Desktop/diplomka/en/figures/cbdam_lifting.png>] [14]) [15] (C
 :\Users\X5\Desktop\diplomka\en\outline.tex
@@ -487,18 +487,18 @@ File: figures/main_schema.pdf Graphic file (type pdf)
 <use figures/main_schema.pdf>
 Package pdftex.def Info: figures/main_schema.pdf used on input line 14.
 (pdftex.def)             Requested size: 412.56496pt x 376.81158pt.
-
-<figures/single_reconst.pdf, id=303, 597.50786pt x 845.04686pt>
-File: figures/single_reconst.pdf Graphic file (type pdf)
-
-<use figures/single_reconst.pdf>
-Package pdftex.def Info: figures/single_reconst.pdf used on input line 28.
-(pdftex.def)             Requested size: 412.56496pt x 365.12988pt.
  [16
 
 
 
 ] [17 <C:/Users/X5/Desktop/diplomka/en/figures/main_schema.pdf>]
+<figures/single_reconst.pdf, id=325, 597.50786pt x 845.04686pt>
+File: figures/single_reconst.pdf Graphic file (type pdf)
+
+<use figures/single_reconst.pdf>
+Package pdftex.def Info: figures/single_reconst.pdf used on input line 28.
+(pdftex.def)             Requested size: 412.56496pt x 365.12988pt.
+
 <figures/single_decomp.pdf, id=327, 597.50786pt x 845.04686pt>
 File: figures/single_decomp.pdf Graphic file (type pdf)
 
@@ -972,7 +972,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb>
-Output written on thesis.pdf (53 pages, 1223105 bytes).
+Output written on thesis.pdf (53 pages, 1209447 bytes).
 PDF statistics:
  908 PDF objects out of 1000 (max. 8388607)
  134 named destinations out of 1000 (max. 500000)
