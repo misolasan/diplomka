@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  24 JUL 2016 15:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  24 JUL 2016 16:19
 entering extended mode
 **thesis.tex
 (C:\Users\X5\Desktop\diplomka\en\thesis.tex
@@ -868,64 +868,71 @@ Package pdftex.def Info: figures/pq/prog_diff.png used on input line 113.
 
 LaTeX Warning: Float too large for page by 2.01166pt on input line 117.
 
-<figures/med/orig.png, id=758, 48.18pt x 48.18pt>
-File: figures/med/orig.png Graphic file (type png)
- <use figures/med/orig.png>
-Package pdftex.def Info: figures/med/orig.png used on input line 126.
-(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+<figures/median.png, id=758, 476.78125pt x 318.18875pt>
+File: figures/median.png Graphic file (type png)
 
-<figures/med/no_med.png, id=759, 48.18pt x 48.18pt>
+<use figures/median.png>
+Package pdftex.def Info: figures/median.png used on input line 122.
+(pdftex.def)             Requested size: 412.56496pt x 275.346pt.
+ <figures/med/orig.png, id=762, 48.18pt x 48.18pt>
+File: figures/med/orig.png Graphic file (type png)
+
+<use figures/med/orig.png>
+Package pdftex.def Info: figures/med/orig.png used on input line 132.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+ <figures/med/no_med.png, id=763, 48.18pt x 48.18pt>
 File: figures/med/no_med.png Graphic file (type png)
 
 <use figures/med/no_med.png>
-Package pdftex.def Info: figures/med/no_med.png used on input line 128.
+Package pdftex.def Info: figures/med/no_med.png used on input line 134.
 (pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
 
-<figures/med/no_med_diff.png, id=760, 48.18pt x 48.18pt>
+<figures/med/no_med_diff.png, id=764, 48.18pt x 48.18pt>
 File: figures/med/no_med_diff.png Graphic file (type png)
 
 <use figures/med/no_med_diff.png>
-Package pdftex.def Info: figures/med/no_med_diff.png used on input line 129.
+Package pdftex.def Info: figures/med/no_med_diff.png used on input line 135.
 (pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
 
-<figures/med/med.png, id=761, 48.18pt x 48.18pt>
+<figures/med/med.png, id=765, 48.18pt x 48.18pt>
 File: figures/med/med.png Graphic file (type png)
  <use figures/med/med.png>
-Package pdftex.def Info: figures/med/med.png used on input line 131.
+Package pdftex.def Info: figures/med/med.png used on input line 137.
 (pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
 
-<figures/med/med_diff.png, id=762, 48.18pt x 48.18pt>
+<figures/med/med_diff.png, id=766, 48.18pt x 48.18pt>
 File: figures/med/med_diff.png Graphic file (type png)
 
 <use figures/med/med_diff.png>
-Package pdftex.def Info: figures/med/med_diff.png used on input line 132.
+Package pdftex.def Info: figures/med/med_diff.png used on input line 138.
 (pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
 
 
-LaTeX Warning: Float too large for page by 12.11166pt on input line 136.
+LaTeX Warning: Float too large for page by 12.11166pt on input line 142.
 
 ) [40] [41 <C:/Users/X5/Desktop/diplomka/en/figures/pq/orig.png> <C:/Users/X5/D
 esktop/diplomka/en/figures/pq/even.png> <C:/Users/X5/Desktop/diplomka/en/figure
 s/pq/even_diff.png> <C:/Users/X5/Desktop/diplomka/en/figures/pq/prog.png> <C:/U
 sers/X5/Desktop/diplomka/en/figures/pq/prog_diff.png>] [42 <C:/Users/X5/Desktop
-/diplomka/en/figures/med/orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/med
-/no_med.png> <C:/Users/X5/Desktop/diplomka/en/figures/med/no_med_diff.png> <C:/
-Users/X5/Desktop/diplomka/en/figures/med/med.png> <C:/Users/X5/Desktop/diplomka
-/en/figures/med/med_diff.png>] (C:\Users\X5\Desktop\diplomka\en\conclusion.tex
+/diplomka/en/figures/median.png>] [43 <C:/Users/X5/Desktop/diplomka/en/figures/
+med/orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/med/no_med.png> <C:/User
+s/X5/Desktop/diplomka/en/figures/med/no_med_diff.png> <C:/Users/X5/Desktop/dipl
+omka/en/figures/med/med.png> <C:/Users/X5/Desktop/diplomka/en/figures/med/med_d
+iff.png>] (C:\Users\X5\Desktop\diplomka\en\conclusion.tex
 Chapter 7.
-[43
+[44
 
 
 
-]) [44] (C:\Users\X5\Desktop\diplomka\en\thesis.bbl [45
+]) [45] (C:\Users\X5\Desktop\diplomka\en\thesis.bbl [46
 
 
-]) [46] [47
-
-] [48
+] [47]) [48] [49
 
 ]
-[49
+[50
+
+] [51
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
@@ -951,13 +958,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 9730 strings out of 493921
- 139774 string characters out of 3144884
- 217090 words of memory out of 3000000
- 12685 multiletter control sequences out of 15000+200000
+ 9741 strings out of 493921
+ 139930 string characters out of 3144884
+ 217296 words of memory out of 3000000
+ 12691 multiletter control sequences out of 15000+200000
  14814 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,8n,30p,2038b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,30p,2038b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
@@ -972,9 +979,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb>
-Output written on thesis.pdf (53 pages, 1209447 bytes).
+Output written on thesis.pdf (55 pages, 1248286 bytes).
 PDF statistics:
- 908 PDF objects out of 1000 (max. 8388607)
- 134 named destinations out of 1000 (max. 500000)
- 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 924 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

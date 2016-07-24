@@ -113,6 +113,10 @@ John Miano.
 \newblock {\em Compressed Image File Formats: JPEG, PNG, GIF, XBM, BMP}.
 \newblock ACM Press/Addison-Wesley Publishing Co., New York, NY, USA, 1999.
 
+\bibitem{median}
+University of~Southampton.
+\newblock Median filtering, 2005.
+
 \bibitem{jpeg2000terrain}
 Ricardo Olanda, Mariano Perez, Juan~Manuel Orduna, and Silvia Rueda.
 \newblock Terrain data compression using wavelet-tiled pyramids for online 3d
