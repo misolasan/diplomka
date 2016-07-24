@@ -13,7 +13,7 @@ Database file #1: bibliography.bib
 Warning--entry type for "wavelet_2d_pyramid" isn't style-file defined
 --line 1 of file bibliography.bib
 Warning--entry type for "median" isn't style-file defined
---line 317 of file bibliography.bib
+--line 326 of file bibliography.bib
 A bad cross reference---entry "meshesGPU2"
 refers to entry "DBLP:conf/si3d/2010", which doesn't exist
 Warning--I didn't find a database entry for "meshesUU1"

@@ -80,6 +80,11 @@ Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
 \newblock {\em Computer Graphics Forum}, 25(3):333--342, September 2006.
 \newblock Proc. Eurographics 2006.
 
+\bibitem{image_proc}
+Rafael~C. Gonzalez and Richard~E. Woods.
+\newblock {\em Digital Image Processing (3rd Edition)}.
+\newblock Prentice-Hall, Inc., Upper Saddle River, NJ, USA, 2006.
+
 \bibitem{gpuLZ77Cuda1}
 Petr HLAVINKA.
 \newblock Kompresn{\'i} algoritmus lz77 na gpu [online], 2012 [cit.
