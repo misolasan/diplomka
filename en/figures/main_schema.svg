@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.2791641"
-     inkscape:cx="276.11771"
+     inkscape:cx="203.50337"
      inkscape:cy="801.13891"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -100,29 +100,29 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="32.522171"
-       y="83.143799"
+       x="23.949364"
+       y="83.570457"
        id="text5965"
        sodipodi:linespacing="125%"
        transform="scale(0.97242239,1.0283597)"><tspan
          sodipodi:role="line"
          id="tspan5967"
-         x="32.522171"
-         y="83.143799"
+         x="23.949364"
+         y="83.570457"
          style="font-size:12.5px">Target mipmaps</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="187.7106"
-       y="85.132423"
+       x="198.99062"
+       y="85.559082"
        id="text5975"
        sodipodi:linespacing="125%"
        transform="scale(0.97242239,1.0283597)"><tspan
          sodipodi:role="line"
          id="tspan5977"
-         x="187.7106"
-         y="85.132423"
-         style="font-size:12.5px">Decompressed mipmaps</tspan></text>
+         x="198.99062"
+         y="85.559082"
+         style="font-size:12.5px">Compressed mipmaps</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 68.00673,317.69594 0.272383,-37.48079 -8.988602,8.16114 8.988602,-8.16114 8.171453,7.85887"
