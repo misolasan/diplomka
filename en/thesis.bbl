@@ -84,6 +84,12 @@ Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
 Petr HLAVINKA.
 \newblock Kompresní algoritmus lz77 na gpu [online], 2012 [cit. 2016-07-23].
 
+\bibitem{huffman}
+David~A. Huffman.
+\newblock A method for the construction of minimum-redundancy codes.
+\newblock {\em Proceedings of the Institute of Radio Engineers},
+  40(9):1098--1101, September 1952.
+
 \bibitem{basics}
 John~F. Hughes, Andries van Dam, Morgan McGuire, David~F. Sklar, James~D.
   Foley, Steven~K. Feiner, and Kurt Akeley.
@@ -140,5 +146,10 @@ Sehoon Yea and W.A. Pearlman.
 \newblock A wavelet-based two-stage near-lossless coder.
 \newblock {\em Image Processing, IEEE Transactions on}, 15(11):3488--3500, Nov
   2006.
+
+\bibitem{lz77}
+J.~Ziv and A.~Lempel.
+\newblock A universal algorithm for sequential data compression.
+\newblock {\em IEEE Trans. Inf. Theor.}, 23(3):337--343, September 2006.
 
 \end{thebibliography}

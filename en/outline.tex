@@ -16,9 +16,9 @@ In this chapter, we will briefly describe how the~compression works. The~details
 		\label{fig:main_schema}
 	\end{figure}
 
-The~first bottom-up pass computes the~target mip-maps --- from the~largest one to the~smallest one. Those will be the~mip-maps, against which the~accuracy of reconstruction will be measured. The~largest mip-map is the~input itself. Every smaller mip-map is computed from the~previous larger one. These mip-maps will be used just as a~temporary reference during compression and are not stored in any way.
+The~bottom-up pass computes the~target mip-maps --- from the~largest one to the~smallest one. Those will be the~mip-maps, against which the~accuracy of reconstruction will be measured. The~largest mip-map is the~input itself. Every smaller mip-map is computed from the~previous larger one. These mip-maps will be used just as a~temporary reference during compression and are not stored in any way.
 
-The~second top-down pass then performs the~compression of these reference mip-maps. To explain how it works, let us firstly describe the~main idea of decompression: once we have a~certain decompressed mip-map, we can reconstruct the~following twice as large  decompressed mip-map with some additional information (residuals). This is quite convenient, as the~previous mip-map represents the~same terrain block, just in a~worse resolution, so the~residuals will be small most of the~time, and thus well compressible. Thus, in order to perform the~decompression, we just need to know the~first mip-map and all the~residuals. 
+The~top-down pass performs the~compression of these reference mip-maps. To explain how it works, let us firstly describe the~main idea of decompression: once we have a~certain decompressed mip-map, we can reconstruct the~following twice as large  decompressed mip-map with some additional information (residuals). This is quite convenient, as the~previous mip-map represents the~same terrain block, just in a~worse resolution, so the~residuals will be small most of the~time, and thus well compressible. Thus, in order to perform the~decompression, we just need to know the~first mip-map and all the~residuals. 
 
 Now, let us get back to the~compression. It computes, quantizes, compresses and stores these residuals. However, in this process, it also computes the~decompressed mip-maps aside, so that right before the~computation of the~residuals needed to reconstruct a~mip-map from the~previous smaller one, the~smaller one is already known (Fig.~\ref{fig:main_schema}). This way, it is guaranteed that the~compression works with the~same mip-maps as the~decompression.  This is very important in order to be able to guarantee a~certain maximum deviation of each decompressed mip-map from its corresponding target mip-map. During the~compression, the~residuals are computed with respect to the~corresponding target reference mip-map from the~first pass, so that the~deviation of the~resulting decompressed mip-map is within the~bound. Thanks to the~fact that these residuals will be combined with the~same mip-map during the~decompression, the~resulting larger mip-map will also be the~same as the~one constructed during the~compression, conforming to the~maximum-error bound. Due to this equivalence, we will often use the~terms compressed and decompressed interchangeably for the~decompressed height values inside the~compression/decompression.
 
@@ -31,7 +31,7 @@ Now we will decribe the~mip-map refinement in a~bit more detail. Each mip-map ex
 \end{figure}
 
 \begin{figure}
-	\includegraphics[trim={0 18cm 1cm 0cm}, clip, width=1\textwidth]{figures/single_decomp.pdf}\centering
+	\includegraphics[trim={1cm 18cm 7cm 0cm}, clip, width=0.7\textwidth]{figures/single_decomp.pdf}\centering
 	\caption{The~diagram of construction of larger decompressed mip-map $\ldot{i+1}$ from the~smaller $\ldot{i}$ during the~real-time decompression. The~quantized residuals $\objdot{E}{i+1}$ are read and decompressed. Then, they are added to the~predictions from the~smaller mip-map.}
 	\label{fig:single_decomp}
 \end{figure}

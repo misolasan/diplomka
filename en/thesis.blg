@@ -14,5 +14,6 @@ Warning--entry type for "wavelet_2d_pyramid" isn't style-file defined
 --line 1 of file bibliography.bib
 A bad cross reference---entry "meshesGPU2"
 refers to entry "DBLP:conf/si3d/2010", which doesn't exist
+Warning--I didn't find a database entry for "meshesUU1"
 Warning--I didn't find a database entry for "DBLP:conf/si3d/2010"
 (There was 1 error message)
