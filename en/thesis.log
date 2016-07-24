@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  23 JUL 2016 20:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  24 JUL 2016 02:27
 entering extended mode
 **thesis.tex
 (C:\Users\X5\Desktop\diplomka\en\thesis.tex
@@ -829,22 +829,100 @@ File: figures/artifs_theory2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/artifs_theory2.pdf used on input line 91.
 (pdftex.def)             Requested size: 185.65297pt x 132.28378pt.
  [39 <C:/Users/X5/Desktop/diplomka/en/figures/artifs_theory.pdf> <C:/Users/X5/D
-esktop/diplomka/en/figures/artifs_theory2.pdf>]) [40] (C:\Users\X5\Desktop\dipl
-omka\en\conclusion.tex
+esktop/diplomka/en/figures/artifs_theory2.pdf>] <figures/pq/orig.png, id=745, 4
+8.18pt x 48.18pt>
+File: figures/pq/orig.png Graphic file (type png)
+ <use figures/pq/orig.png>
+Package pdftex.def Info: figures/pq/orig.png used on input line 107.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/pq/even.png, id=746, 48.18pt x 48.18pt>
+File: figures/pq/even.png Graphic file (type png)
+ <use figures/pq/even.png>
+Package pdftex.def Info: figures/pq/even.png used on input line 109.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/pq/even_diff.png, id=747, 48.18pt x 48.18pt>
+File: figures/pq/even_diff.png Graphic file (type png)
+
+<use figures/pq/even_diff.png>
+Package pdftex.def Info: figures/pq/even_diff.png used on input line 110.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/pq/prog.png, id=748, 48.18pt x 48.18pt>
+File: figures/pq/prog.png Graphic file (type png)
+ <use figures/pq/prog.png>
+Package pdftex.def Info: figures/pq/prog.png used on input line 112.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/pq/prog_diff.png, id=749, 48.18pt x 48.18pt>
+File: figures/pq/prog_diff.png Graphic file (type png)
+
+<use figures/pq/prog_diff.png>
+Package pdftex.def Info: figures/pq/prog_diff.png used on input line 113.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+
+LaTeX Warning: Float too large for page by 2.01166pt on input line 117.
+
+<figures/med/orig.png, id=754, 48.18pt x 48.18pt>
+File: figures/med/orig.png Graphic file (type png)
+ <use figures/med/orig.png>
+Package pdftex.def Info: figures/med/orig.png used on input line 126.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/med/no_med.png, id=755, 48.18pt x 48.18pt>
+File: figures/med/no_med.png Graphic file (type png)
+
+<use figures/med/no_med.png>
+Package pdftex.def Info: figures/med/no_med.png used on input line 128.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/med/no_med_diff.png, id=756, 48.18pt x 48.18pt>
+File: figures/med/no_med_diff.png Graphic file (type png)
+
+<use figures/med/no_med_diff.png>
+Package pdftex.def Info: figures/med/no_med_diff.png used on input line 129.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/med/med.png, id=757, 48.18pt x 48.18pt>
+File: figures/med/med.png Graphic file (type png)
+ <use figures/med/med.png>
+Package pdftex.def Info: figures/med/med.png used on input line 131.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+<figures/med/med_diff.png, id=758, 48.18pt x 48.18pt>
+File: figures/med/med_diff.png Graphic file (type png)
+
+<use figures/med/med_diff.png>
+Package pdftex.def Info: figures/med/med_diff.png used on input line 132.
+(pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
+
+
+LaTeX Warning: Float too large for page by 12.11166pt on input line 136.
+
+) [40] [41 <C:/Users/X5/Desktop/diplomka/en/figures/pq/orig.png> <C:/Users/X5/D
+esktop/diplomka/en/figures/pq/even.png> <C:/Users/X5/Desktop/diplomka/en/figure
+s/pq/even_diff.png> <C:/Users/X5/Desktop/diplomka/en/figures/pq/prog.png> <C:/U
+sers/X5/Desktop/diplomka/en/figures/pq/prog_diff.png>] [42 <C:/Users/X5/Desktop
+/diplomka/en/figures/med/orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/med
+/no_med.png> <C:/Users/X5/Desktop/diplomka/en/figures/med/no_med_diff.png> <C:/
+Users/X5/Desktop/diplomka/en/figures/med/med.png> <C:/Users/X5/Desktop/diplomka
+/en/figures/med/med_diff.png>] (C:\Users\X5\Desktop\diplomka\en\conclusion.tex
 Chapter 7.
-[41
+[43
 
 
 
-]) [42] (C:\Users\X5\Desktop\diplomka\en\thesis.bbl [43
+]) [44] (C:\Users\X5\Desktop\diplomka\en\thesis.bbl [45
 
 
-]) [44] [45
+]) [46] [47
 
-] [46
+] [48
 
 ]
-[47
+[49
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
@@ -866,10 +944,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 9665 strings out of 493921
- 138442 string characters out of 3144884
- 215970 words of memory out of 3000000
- 12637 multiletter control sequences out of 15000+200000
+ 9725 strings out of 493921
+ 139727 string characters out of 3144884
+ 217021 words of memory out of 3000000
+ 12682 multiletter control sequences out of 15000+200000
  14814 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,8n,30p,2038b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -887,9 +965,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb>
-Output written on thesis.pdf (51 pages, 1144794 bytes).
+Output written on thesis.pdf (53 pages, 1221501 bytes).
 PDF statistics:
- 869 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 446 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 903 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 
