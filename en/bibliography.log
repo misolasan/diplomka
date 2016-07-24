@@ -1,27 +1,22 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.6.10)  10 JUN 2016 21:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.6.10)  24 JUL 2016 17:58
 entering extended mode
-**C:/Users/X5/Desktop/vzor-dp-win/vzor-dp-win/en/bibliography.bib
-(C:/Users/X5/Desktop/vzor-dp-win/vzor-dp-win/en/bibliography.bib
-Overfull \hbox (8.30151pt too wide) in paragraph at lines 2--14
-\tenrm ber=4, pages=175-186, key-words=electrocardiography;signal processing;ti
-me-frequency anal-y-sis;wavelet trans-|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm b
-.\kern0.27779
-.\tenrm e
-.\tenrm r
-.\tenrm =
-.etc.
-
-! Undefined control sequence.
-l.60 ...d Batched Dynamic Adaptive Meshes (\textit
-                                                  {C-BDAM}), is an extension...
-
+**C:/Users/X5/Desktop/diplomka/en/bibliography.bib
+(C:/Users/X5/Desktop/diplomka/en/bibliography.bib
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1 @online{wavelet_
+                    2d_pyramid,
 ? 
 ! Emergency stop.
-l.60 ...d Batched Dynamic Adaptive Meshes (\textit
-                                                  {C-BDAM}), is an extension...
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1 @online{wavelet_
+                    2d_pyramid,
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!

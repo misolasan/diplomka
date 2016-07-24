@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-83.05222"
-     inkscape:cy="634.07983"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-40.99905"
+     inkscape:cy="661.79341"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -77,7 +77,7 @@
          id="tspan5977"
          x="46.795296"
          y="45.248127"
-         style="font-size:13.75px">Decompressed mipmap</tspan></text>
+         style="font-size:13.75px">Compressed mipmap</tspan></text>
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.39298055;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5892-2-8"
@@ -206,7 +206,7 @@
          id="tspan5977-4"
          x="41.14735"
          y="453.75174"
-         style="font-size:13.75px">Next Decompressed mipmap</tspan></text>
+         style="font-size:13.75px">Next Compressed mipmap</tspan></text>
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.21841674;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5892-0-2-4"

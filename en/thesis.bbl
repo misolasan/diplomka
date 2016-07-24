@@ -1,14 +1,14 @@
 \begin{thebibliography}{10}
 
 \bibitem{fractalChar}
-C.~Andújar, A.~Chica, M.~A. Vico, S.~Moya, and P.~Brunet.
+C.~And{\'u}jar, A.~Chica, M.~A. Vico, S.~Moya, and P.~Brunet.
 \newblock Inexpensive reconstruction and rendering of realistic roadside
   landscapes.
 \newblock {\em Computer Graphics Forum}, 33(6):101--117, 2014.
 
 \bibitem{gpuHuffman1}
-C.~A. Angulo, C.~D. Hernández, G.~Rincón, C.~A. Boada, J.~Castillo, and C.~A.
-  Fajardo.
+C.~A. Angulo, C.~D. Hern{\'a}ndez, G.~Rincón, C.~A. Boada, J.~Castillo, and
+  C.~A. Fajardo.
 \newblock Accelerating huffman decoding of seismic data on gpus.
 \newblock In {\em Signal Processing, Images and Computer Vision (STSIVA), 2015
   20th Symposium on}, pages 1--6, Sept 2015.
@@ -82,7 +82,8 @@ Enrico Gobbetti, Fabio Marton, Paolo Cignoni, Marco~Di Benedetto, and Fabio
 
 \bibitem{gpuLZ77Cuda1}
 Petr HLAVINKA.
-\newblock Kompresní algoritmus lz77 na gpu [online], 2012 [cit. 2016-07-23].
+\newblock Kompresn{\'i} algoritmus lz77 na gpu [online], 2012 [cit.
+  2016-07-23].
 
 \bibitem{huffman}
 David~A. Huffman.
