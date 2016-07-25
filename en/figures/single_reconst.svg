@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="-40.99905"
-     inkscape:cy="661.79341"
+     inkscape:zoom="1.4"
+     inkscape:cx="293.97812"
+     inkscape:cy="772.73971"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -113,15 +113,20 @@
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="419.9119"
-       y="222.16476"
+       x="427.05475"
+       y="214.30762"
        id="text5965-9-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5967-3-2"
-         x="419.9119"
-         y="222.16476"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Subtract Predictions from Target mipmap</tspan></text>
+         x="427.05475"
+         y="214.30762"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Subtract Predictions </tspan><tspan
+         sodipodi:role="line"
+         x="427.05475"
+         y="231.49512"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+         id="tspan4772">from Target mipmap</tspan></text>
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.39298055;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5892-2-0"
@@ -132,14 +137,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="478.37573"
-       y="333.65021"
+       x="479.80429"
+       y="335.07877"
        id="text5965-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5967-2"
-         x="478.37573"
-         y="333.65021"
+         x="479.80429"
+         y="335.07877"
          style="font-size:13.75px">Residuals</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.71144968px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -151,32 +156,37 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="478.99664"
-       y="546.7196"
+       y="547.4339"
        id="text5965-8-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5967-2-3"
          x="478.99664"
-         y="546.7196"
+         y="547.4339"
          style="font-size:13.75px">Quantized residuals</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.71144968px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 398.56034,411.15699 0.33518,47.76993 -11.06072,-10.40152 11.06072,10.40152 10.05519,-10.01627"
+       d="m 396.41748,411.15699 0.33518,47.76993 -11.06072,-10.40152 11.06072,10.40152 10.05519,-10.01627"
        id="path5979-2-2-5-9-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="419.99133"
-       y="437.62311"
+       x="427.13419"
+       y="431.90881"
        id="text5965-9-2-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5967-3-2-1"
-         x="419.99133"
-         y="437.62311"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Quantize with respect to max. error</tspan></text>
+         x="427.13419"
+         y="431.90881"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Quantize with respect</tspan><tspan
+         sodipodi:role="line"
+         x="427.13419"
+         y="449.09631"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+         id="tspan4766">to max. error</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.71718937px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 277.58308,543.15415 -48.54386,0.25632 10.70828,10.93119 -10.70828,-10.93119 10.05114,-10.17854"
@@ -228,7 +238,7 @@
          style="font-size:13.75px">Target mipmap</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.71144968px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 215.59576,239.39411 47.77041,0.25632 -10.53767,10.93109 10.53767,-10.93109 -9.89099,-10.17844"
+       d="m 211.31005,239.39411 47.77041,0.25632 -10.53767,10.93109 10.53767,-10.93109 -9.89099,-10.17844"
        id="path5979-2-2-5-9-3-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />

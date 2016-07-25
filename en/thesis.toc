@@ -11,7 +11,7 @@
 \contentsline {chapter}{\numberline {5}Functional comparison to C-BDAM and wavelets}{30}{chapter.5}
 \contentsline {chapter}{\numberline {6}Results}{33}{chapter.6}
 \contentsline {section}{\numberline {6.1}The\nobreakspace {}compression artifacts}{33}{section.6.1}
-\contentsline {chapter}{\numberline {7}Conclusion}{43}{chapter.7}
-\contentsline {chapter}{List of Tables}{48}{chapter*.6}
-\contentsline {chapter}{List of Abbreviations}{49}{chapter*.7}
-\contentsline {chapter}{Attachments}{50}{chapter*.8}
+\contentsline {chapter}{Conclusion}{43}{figure.6.8}
+\contentsline {chapter}{List of Tables}{48}{chapter*.7}
+\contentsline {chapter}{List of Abbreviations}{49}{chapter*.8}
+\contentsline {chapter}{Attachments}{50}{chapter*.9}
