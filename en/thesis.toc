@@ -16,3 +16,4 @@
 \contentsline {chapter}{Attachments}{51}{chapter*.9}
 \contentsline {chapter}{Attachments}{52}{chapter*.10}
 \contentsline {chapter}{\numberline {A}Results on a\nobreakspace {}reference image}{53}{appendix.A}
+\contentsline {chapter}{\numberline {B}Results on a\nobreakspace {}reference image}{61}{appendix.B}
