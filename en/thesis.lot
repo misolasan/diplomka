@@ -4,7 +4,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces The\nobreakspace {}size of the\nobreakspace {}compressed SRTM dataset with 16\nobreakspace {}m maximum deviation for various dimension of squares into which the\nobreakspace {}dataset has been partitioned.}}{34}{table.6.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces The\nobreakspace {}size of the\nobreakspace {}compressed SRTM dataset with 16\nobreakspace {}m maximum deviation for various dimension of squares into which the\nobreakspace {}dataset has been partitioned. The\nobreakspace {}original size of data is 58\nobreakspace {}GB.}}{34}{table.6.1}
 \contentsline {table}{\numberline {6.2}{\ignorespaces The\nobreakspace {}compression/decompression speeds for various dimensions of the\nobreakspace {}input mipmap.}}{34}{table.6.2}
 \contentsline {table}{\numberline {6.3}{\ignorespaces The\nobreakspace {}compression ratio for various maximum deviations --- tested on a\nobreakspace {}reference image which can be seen in Attachment\nobreakspace {}\ref {att:res_ref}. Note that for the\nobreakspace {}zero deviation, the\nobreakspace {}file size actually increased. However, this is not the\nobreakspace {}case for all heightmaps --- ie. the\nobreakspace {}flat ones.}}{35}{table.6.3}
 \addvspace {10\p@ }
