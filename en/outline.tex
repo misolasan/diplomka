@@ -9,6 +9,8 @@
 \newcommand{\dnorm}{\opnorm{Q}{D}}
 
 In this chapter, we will briefly describe how the~compression works. The~details of it are described in the~following Chapter~\ref{chap:details}. Basically, two consecutive passes are performed on the~input heightmap --- a~bottom-up pass followed by a~top-down pass (Fig.~\ref{fig:main_schema}). These passes are analogic to the~passes of the~described second-generation wavelet methods. 
+
+\section{High-level overview}
 	
 The~bottom-up pass computes the~target mip-maps --- from the~largest one to the~smallest one. Those will be the~mip-maps, against which the~accuracy of reconstruction will be measured. The~largest mip-map is the~input itself. Every smaller mip-map is computed from the~previous larger one. These mip-maps will be used just as a~temporary reference during compression and are not stored in any way.
 
