@@ -12,6 +12,7 @@
 \contentsline {chapter}{\numberline {6}Results}{33}{chapter.6}
 \contentsline {section}{\numberline {6.1}The\nobreakspace {}compression artifacts}{34}{section.6.1}
 \contentsline {chapter}{Conclusion}{44}{figure.6.8}
-\contentsline {chapter}{List of Tables}{49}{chapter*.7}
 \contentsline {chapter}{List of Abbreviations}{50}{chapter*.8}
 \contentsline {chapter}{Attachments}{51}{chapter*.9}
+\contentsline {chapter}{Attachments}{52}{chapter*.10}
+\contentsline {chapter}{\numberline {A}Results on a\nobreakspace {}reference image}{53}{appendix.A}

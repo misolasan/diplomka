@@ -6,7 +6,7 @@ For a~comparison, C-BDAM~\cite{cbdam} achieved the~compression ratio of 64:1 on 
 
 The~most accurate comparison of our method with C-BDAM we could perform was to compress the~SRTM dataset alone with the~maximum deviation set to 16~m. We did so, the~final size of the~compressed data varied depending on the~dimension of the~squares into which we partitioned the~terrain (Tab.~\ref{tab:srtm}). At first, it decreased with growing dimension but then it started growing, probably because the~overhead (the~total area covered by the~squares outside the~dataset) overweighted the~advantage of larger squares (greater redundancy exploitation). The~smallest size we achieved was 1.03~GB for the~dimension equal to 1024 which yield the~compression ratio of 56:1 when compared to the~size of the~dataset converted to floats (58~GB), similarly as in the~case of C-BDAM. This is quite a~worse ratio, probably caused by the~fact that C-BDAM does not compress the~data by independent blocks, but it builds a~hierarchy of residuals atop them, thanks to which it can profit of heights similarity on much coarser levels over much larger areas. On the~other hand, our method has the~advantage of modularity and independence on the~target usage.
 
-In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compression and decompression on the~dimension of the~input square. In Table~\ref{tab:ratios}, you can see the~dependence of the~compression ratio on the~maximum deviation, all measured on a~reference heightmap (Fig.~\ref{fig:ref_map}). In Appendix~???, we use this image to demonstrate how the~result of the~compression changes depending on the~compression ratio. In Figure~\ref{fig:result_wave_samples}, you can see the~output of compression applied to a~synthetic spiky terrain with a~fixed maximum deviation.
+In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compression and decompression on the~dimension of the~input square. In Table~\ref{tab:ratios}, you can see the~dependence of the~compression ratio on the~maximum deviation, all measured on a~reference heightmap (Fig.~\ref{fig:ref_map}). In Attachment~\ref{att:res_ref}, we use this image to demonstrate how the~result of the~compression changes depending on the~compression ratio. In Figure~\ref{fig:result_wave_samples}, you can see the~output of compression applied to a~synthetic spiky terrain with a~fixed maximum deviation.
 
 \begin{table}
 	\begin{center}
@@ -57,7 +57,7 @@ In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compressi
 			15 & 37.27:1 \\ \hline
 			20 & 53.02:1 \\ \hline
 		\end{tabular}
-		\caption{The~compression ratio for various maximum deviations --- tested on a~reference image which can be seen in Appendix~???.}
+		\caption{The~compression ratio for various maximum deviations --- tested on a~reference image which can be seen in Attachment~\ref{att:res_ref}.}
 		\label{tab:ratios}
 	\end{center}
 \end{table}
@@ -68,9 +68,9 @@ In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compressi
 
 \begin{figure}
 	\begin{center}
-	\incexamplsolo{figures/ref_orig.png} \\ \vspaceimg
+	\includegraphics[width=0.9\textwidth]{figures/out_0.png} \\ \vspaceimg
 	\end{center}
-	\caption{The~reference heightmap on which we measured the~compression ratios for various deviations and which we use in Appendix~??? to demonstrate the~outputs of compression for various maximum deviation settings.}
+	\caption{The~reference heightmap on which we measured the~compression ratios for various deviations and which we use in Attachment~\ref{att:res_ref} to demonstrate the~outputs of compression for various maximum deviation settings.}
 	\label{fig:ref_map}
 \end{figure}
 
