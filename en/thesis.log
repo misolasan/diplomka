@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  27 JUL 2016 00:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  27 JUL 2016 00:31
 entering extended mode
 **thesis.tex
 (C:\Users\X5\Desktop\diplomka\en\thesis.tex
@@ -710,13 +710,13 @@ Chapter 6.
 
 
 
-] <figures/out_0.png, id=675, 256.96pt x 256.96pt>
+] <figures/out_0.png, id=676, 256.96pt x 256.96pt>
 File: figures/out_0.png Graphic file (type png)
  <use figures/out_0.png>
 Package pdftex.def Info: figures/out_0.png used on input line 71.
 (pdftex.def)             Requested size: 371.30594pt x 371.3356pt.
 
-<figures/dim_64_amp_16_lon_4_horizontal_orig.png, id=678, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_4_horizontal_orig.png, id=679, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_4_horizontal_orig.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_4_horizontal_orig.png>
@@ -724,7 +724,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_orig.png used o
 n input line 81.
 (pdftex.def)             Requested size: 185.65297pt x 185.66779pt.
 
-<figures/dim_64_amp_16_lon_16_horizontal_orig.png, id=679, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_16_horizontal_orig.png, id=680, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_16_horizontal_orig.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_16_horizontal_orig.png>
@@ -732,7 +732,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_orig.png used
 on input line 82.
 (pdftex.def)             Requested size: 185.65297pt x 185.66779pt.
 
-<figures/dim_64_amp_16_lon_4_horizontal_out.png, id=680, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_4_horizontal_out.png, id=681, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_4_horizontal_out.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_4_horizontal_out.png>
@@ -740,7 +740,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_out.png used on
  input line 83.
 (pdftex.def)             Requested size: 185.65297pt x 185.66779pt.
 
-<figures/dim_64_amp_16_lon_16_horizontal_out.png, id=681, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_16_horizontal_out.png, id=682, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_16_horizontal_out.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_16_horizontal_out.png>
@@ -748,7 +748,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_16_horizontal_out.png used o
 n input line 84.
 (pdftex.def)             Requested size: 185.65297pt x 185.66779pt.
 
-<figures/dim_64_amp_16_lon_4_horizontal_diff.png, id=682, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_4_horizontal_diff.png, id=683, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_4_horizontal_diff.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_4_horizontal_diff.png>
@@ -756,7 +756,7 @@ Package pdftex.def Info: figures/dim_64_amp_16_lon_4_horizontal_diff.png used o
 n input line 85.
 (pdftex.def)             Requested size: 185.65297pt x 185.66779pt.
 
-<figures/dim_64_amp_16_lon_16_horizontal_diff.png, id=683, 64.24pt x 64.24pt>
+<figures/dim_64_amp_16_lon_16_horizontal_diff.png, id=684, 64.24pt x 64.24pt>
 File: figures/dim_64_amp_16_lon_16_horizontal_diff.png Graphic file (type png)
 
 <use figures/dim_64_amp_16_lon_16_horizontal_diff.png>
@@ -924,24 +924,25 @@ LaTeX Warning: Float too large for page by 2.01166pt on input line 169.
 LaTeX Warning: Reference `fig:result_samples' on page 40 undefined on input lin
 e 171.
 
-[40 <C:/Users/X5/Desktop/diplomka/en/figures/artifs_theory.pdf> <C:/Users/X5/De
-sktop/diplomka/en/figures/artifs_theory2.pdf>] [41 <C:/Users/X5/Desktop/diplomk
-a/en/figures/pq/orig.png> <C:/Users/X5/Desktop/diplomka/en/figures/pq/even.png>
- <C:/Users/X5/Desktop/diplomka/en/figures/pq/even_diff.png> <C:/Users/X5/Deskto
-p/diplomka/en/figures/pq/prog.png> <C:/Users/X5/Desktop/diplomka/en/figures/pq/
-prog_diff.png>] <figures/median.png, id=791, 476.78125pt x 318.18875pt>
+<figures/median.png, id=757, 476.78125pt x 318.18875pt>
 File: figures/median.png Graphic file (type png)
 
 <use figures/median.png>
 Package pdftex.def Info: figures/median.png used on input line 174.
 (pdftex.def)             Requested size: 412.56496pt x 275.346pt.
- <figures/med/orig.png, id=795, 48.18pt x 48.18pt>
+ [40 <C:/Users/X5/Desktop/diplomka/en/figures/artifs_theory.pdf> <C:/Users/X5/D
+esktop/diplomka/en/figures/artifs_theory2.pdf>]
+[41 <C:/Users/X5/Desktop/diplomka/en/figures/pq/orig.png> <C:/Users/X5/Desktop/
+diplomka/en/figures/pq/even.png> <C:/Users/X5/Desktop/diplomka/en/figures/pq/ev
+en_diff.png> <C:/Users/X5/Desktop/diplomka/en/figures/pq/prog.png> <C:/Users/X5
+/Desktop/diplomka/en/figures/pq/prog_diff.png>]
+<figures/med/orig.png, id=795, 48.18pt x 48.18pt>
 File: figures/med/orig.png Graphic file (type png)
-
-<use figures/med/orig.png>
+ <use figures/med/orig.png>
 Package pdftex.def Info: figures/med/orig.png used on input line 184.
 (pdftex.def)             Requested size: 180.70532pt x 180.70532pt.
- <figures/med/no_med.png, id=796, 48.18pt x 48.18pt>
+
+<figures/med/no_med.png, id=796, 48.18pt x 48.18pt>
 File: figures/med/no_med.png Graphic file (type png)
 
 <use figures/med/no_med.png>
@@ -1330,7 +1331,7 @@ ic/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/
 uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (73 pages, 2182494 bytes).
+Output written on thesis.pdf (73 pages, 2173520 bytes).
 PDF statistics:
  1240 PDF objects out of 1440 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
