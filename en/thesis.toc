@@ -15,4 +15,4 @@
 \contentsline {chapter}{Attachments}{49}{chapter*.7}
 \contentsline {chapter}{\numberline {A}CD with the method}{50}{appendix.A}
 \contentsline {chapter}{\numberline {B}Results on a\nobreakspace {}reference image}{51}{appendix.B}
-\contentsline {chapter}{\numberline {C}The\nobreakspace {}paper}{59}{appendix.C}
+\contentsline {chapter}{\numberline {C}The\nobreakspace {}paper}{55}{appendix.C}
