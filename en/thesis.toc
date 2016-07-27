@@ -6,14 +6,16 @@
 \contentsline {section}{\numberline {2.3}Lossless compression}{14}{section.2.3}
 \contentsline {chapter}{\numberline {3}The outline of the\nobreakspace {}method}{16}{chapter.3}
 \contentsline {section}{\numberline {3.1}High-level overview}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Formal description}{16}{section.3.2}
 \contentsline {chapter}{\numberline {4}Details of the\nobreakspace {}method}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Bottom-up pass}{21}{section.4.1}
 \contentsline {section}{\numberline {4.2}Top-down pass}{22}{section.4.2}
 \contentsline {chapter}{\numberline {5}Functional comparison to C-BDAM and wavelets}{30}{chapter.5}
-\contentsline {chapter}{\numberline {6}Results}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}The\nobreakspace {}compression artifacts}{34}{section.6.1}
+\contentsline {chapter}{\numberline {6}Discussion}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Results}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}The\nobreakspace {}compression artifacts}{34}{section.6.2}
 \contentsline {chapter}{Conclusion}{44}{figure.6.8}
-\contentsline {chapter}{Attachments}{49}{chapter*.7}
+\contentsline {chapter}{Attachments}{49}{chapter*.13}
 \contentsline {chapter}{\numberline {A}CD with the method}{50}{appendix.A}
 \contentsline {chapter}{\numberline {B}Results on a\nobreakspace {}reference image}{51}{appendix.B}
 \contentsline {chapter}{\numberline {C}The\nobreakspace {}paper}{55}{appendix.C}

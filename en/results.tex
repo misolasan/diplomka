@@ -1,6 +1,10 @@
-\chapter{Results}\label{chap:results}
+\chapter{Discussion}\label{chap:results}
 
-We have implemented this method both as standalone and as a~plugin for a~real-time planet renderer as we already mentioned in the~introduction. We did so in order to evaluate the~usability of the~method in practice on real data. With this method used by the~renderer, we compressed and then visualized the~whole-Earth height data with 90~m span between height samples (SRTM\footnote{http://www2.jpl.nasa.gov/srtm/}~\cite{srtm}). The~uncompressed dataset is 29~GB large and each sample of it is a~short integer (2~bytes). Due to the~data redundancy of the~LOD hierarchy of the~renderer which is caused by the~fact that it stores all LODs of terrain completely separately, the~total size of the~SRTM dataset converted to this hierarchy was 260~GB. This hierarchy contained orginal data converted to float values, reprojected and tiled into blocks of 256x256 samples. When we applied our compression method to them, we managed to compress these data down to 7~GB with the~maximum deviation of the~compression set to 5~m. This yields the~compression ratio of 37:1.
+We have implemented this method both as standalone and as a~plugin for a~real-time planet renderer as we already mentioned in the~introduction. We did so in order to evaluate the~usability of the~method in practice on real data. 
+
+\section{Results}
+
+With this method used by the~renderer, we compressed and then visualized the~whole-Earth height data with 90~m span between height samples (SRTM\footnote{http://www2.jpl.nasa.gov/srtm/}~\cite{srtm}). The~uncompressed dataset is 29~GB large and each sample of it is a~short integer (2~bytes). Due to the~data redundancy of the~LOD hierarchy of the~renderer which is caused by the~fact that it stores all LODs of terrain completely separately, the~total size of the~SRTM dataset converted to this hierarchy was 260~GB. This hierarchy contained orginal data converted to float values, reprojected and tiled into blocks of 256x256 samples. When we applied our compression method to them, we managed to compress these data down to 7~GB with the~maximum deviation of the~compression set to 5~m. This yields the~compression ratio of 37:1.
 
 For a~comparison, C-BDAM~\cite{cbdam} achieved the~compression ratio of 64:1 on the~same 90~m-resolution SRTM dataset with no redundancy with the~maximum error bound set to 16~m. As we already mentioned, C-BDAM contains its own LOD rendering hierarchy without any redundancy --- a~finer LOD is constructed from the~coarser one which is where the~compression takes place, so the~compression ratio of this method was evaluated with respect to the~original size of the~dataset. However, in their case, this was not 29~GB, but twice as much --- 58~GB, as they converted each sample to a~float before the~compression. The~final size of the~compressed data prepared for rendering in C-BDAM was just 870~MB. For a~comparison with the~mentioned ratio of our method, in case of C-BDAM, it is fair to accept the~ratio of 64:1 based on the~float input, as our method had the~float input, too, even though differently pre-processed.
 
@@ -17,8 +21,8 @@ In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compressi
 			Dimension & Size & Ratio \\ \hline
 			128 & 1.31~GB & 44.27:1 \\ \hline
 			256 & 1.12~GB & 51.79:1 \\ \hline
-			\textbf{512} & \textbf{1.05~GB} & \textbf{55.24} \\ \hline
-			1024 & 1.03~GB & 56.31 \\ \hline
+			512 & 1.05~GB & 55.24 \\ \hline
+			\textbf{1024} & \textbf{1.03~GB} & \textbf{56.31} \\ \hline
 			2048 & 1.04~GB & 55.77:1 \\ \hline
 			4096 & 1.07~GB & 54.21:1 \\ \hline
 			8192 & 1.11~GB & 52.25:1 \\ \hline
@@ -51,7 +55,7 @@ In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compressi
 		\begin{tabular}{ | c | c | }
 			\hline
 			Deviation & Ratio \\ \hline
-			0 & 1:1.06  \\ \hline
+			0 & 1:1 \\ \hline
 			1 & 4.02:1  \\ \hline
 			2 & 6.42:1  \\ \hline
 			5 & 13.68:1  \\ \hline
@@ -59,7 +63,7 @@ In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compressi
 			15 & 37.27:1 \\ \hline
 			20 & 53.02:1 \\ \hline
 		\end{tabular}
-		\caption{The~compression ratio for various maximum deviations --- tested on a~reference image which can be seen in Attachment~\ref{att:res_ref}. Note that for the~zero deviation, the~file size actually increased. However, this is not the~case for all heightmaps --- ie. the~flat ones.}
+		\caption{The~compression ratio for various maximum deviations --- tested on a~reference image which can be seen in Attachment~\ref{att:res_ref}.}
 		\label{tab:ratios}
 	\end{center}
 \end{table}
@@ -94,6 +98,8 @@ In Table~\ref{tab:speeds}, you can see the~dependence of the~speeds of compressi
 \section{The~compression artifacts}\label{sec:artifs}
 
 This section is dedicated to analyzing the~artifacts visible in the~terrain compressed by this method. We will give some grayscale example visualisations of how they look, explain why they usually occur and discuss various ways how they can be reduced.
+
+\subsection*{Analysis}
 
 Because this method is designed with the~maximum height error as the~only measurement of quality of the~compressed data, we cannot guarantee that the~resulting terrain will look smooth and will not contain any sharp peaks within the~maximum-error bound. Due to the~character of the~method, such artifacts indeed occur. They cannot be completely avoided, but we can reduce them by a~suitable choice of the~prediction filters, setting a~lower maximum deviation, or by applying the~median filter to the~output of the~decompression if it is not a~problem for any reason (eg. decreased performance or increased maximum deviation).
 
@@ -147,6 +153,8 @@ This difference might then cause the difference in residuals --- the~quantized r
 	\label{fig:artifs_theory}
 \end{figure}
 
+\subsection*{Progressive quantization}
+
 We also tried to apply progressive quantization to the~residuals in order to reduce the~ artifacts in the~reconstructed terrain. In Sec.~\ref{sec:wavelets}, we mentioned that progressive quantization degrades the~coarser residuals less than the~finer (more detailed) ones. In our context, it would mean that the~maximum error of $\objdot{L}{i}$ (the~reconstructed data) equal to the~quantization interval of $\objdot{E}{i}$ (the~quantized residuals) would grow with $i$ up to $D$ at the~finest level. To compute $D_i$ --- the~maximum error of $\objdot{L}{i}$, we used the~following equation: $D_i = D * (\frac{i}{n})^k$, where $k$, a~natural number, is a~parameter of this approach. The~larger it is, the~less degraded are the~coarser levels, but the~maximum deviation of the~finer one is still $D$.
 
 However, more careful decimation of coarser high-pass information only helps reduce large-scale artifacts which is not the~case of our artifacts --- they are mainly caused by differences between neighboring pixels which happens due to the~fact that the~residuals are cropped to respect the~maximum deviation. Indeed, our experiments with progressive quantization did not help reduce the~artifacts at all --- progressive quantization does not tackle the~problem described in the~previous paragraph. Quite to the~contrary, it makes the~artifacts in the~finest level more regularly distributed which is a~bit more disturbing. This is probably because there is less variance in deviation propagated from the~coarser levels which exposes the~regularity of the~prediction filters inside the~finest level more (Fig.~\ref{fig:artifs_progressive}). Additionally, the~progressive quantization increased the~size of data.
@@ -169,6 +177,8 @@ However, more careful decimation of coarser high-pass information only helps red
 	\caption{Comparison of artifacts at the~finest mip-map level produced by the~even quantization (as described in Chap.~\ref{chap:details}) and those produced by the~progressive quantization with $k$ set to 5, both with 10~m max. error at the~finest level. On the~top there is the~original, in the~remaining two rows there are the~compressed versions on the~left and their differences with the~original on the~right, in which the~yellow color means 9.5m and the~blue color means -9.5m.}
 	\label{fig:artifs_progressive}
 \end{figure}
+
+\subsection*{Median filtering}
 
 Finally, we found only one way how to smoothen the~artifacts --- to post-process the~decompressed data. This post-processing does not happen during the~compression, but after the~decompression. In the~image processing, the~median filter~\cite{image_proc} is very suitable for "salt and pepper" noise reduction, whereas our artifacts (the bottom of Fig.~\ref{fig:artifs_progressive}) often resemble this kind of noise. This filter substitutes the~height of each pixel with the~median of its height together with the~heights of all its neighbors. The~size of the~neighborhood can vary, but we used the~simplest alternative --- 1, so that the~median of nine values is calculated (Fig.~\ref{fig:median}). However, generally, this filter can increase the~maximum deviation of the~decompressed data by any amount. For example, imagine a~very high pixel surrounded by very low pixels. In this extreme case, the~high pixel will be aligned to the~height of one of the~lower pixels. The~higher the~pixel was before, the~larger the~deviation caused by this filter will be.
 

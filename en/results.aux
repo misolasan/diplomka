@@ -2,18 +2,19 @@
 \providecommand\hyper@newdestlabel[2]{}
 \citation{srtm}
 \citation{cbdam}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results}{33}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion}{33}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:results}{{6}{33}{Results}{chapter.6}{}}
+\newlabel{chap:results}{{6}{33}{Discussion}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Results}{33}{section.6.1}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces The\nobreakspace  {}size of the\nobreakspace  {}compressed SRTM dataset with 16\nobreakspace  {}m maximum deviation for various dimension of squares into which the\nobreakspace  {}dataset has been partitioned. The\nobreakspace  {}original size of data is 58\nobreakspace  {}GB.}}{34}{table.6.1}}
 \newlabel{tab:srtm}{{6.1}{34}{The~size of the~compressed SRTM dataset with 16~m maximum deviation for various dimension of squares into which the~dataset has been partitioned. The~original size of data is 58~GB}{table.6.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces The\nobreakspace  {}compression/decompression speeds for various dimensions of the\nobreakspace  {}input mipmap.}}{34}{table.6.2}}
 \newlabel{tab:speeds}{{6.2}{34}{The~compression/decompression speeds for various dimensions of the~input mipmap}{table.6.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}The\nobreakspace  {}compression artifacts}{34}{section.6.1}}
-\newlabel{sec:artifs}{{6.1}{34}{The~compression artifacts}{section.6.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces The\nobreakspace  {}compression ratio for various maximum deviations --- tested on a\nobreakspace  {}reference image which can be seen in Attachment\nobreakspace  {}\ref  {att:res_ref}. Note that for the\nobreakspace  {}zero deviation, the\nobreakspace  {}file size actually increased. However, this is not the\nobreakspace  {}case for all heightmaps --- ie. the\nobreakspace  {}flat ones.}}{35}{table.6.3}}
-\newlabel{tab:ratios}{{6.3}{35}{The~compression ratio for various maximum deviations --- tested on a~reference image which can be seen in Attachment~\ref {att:res_ref}. Note that for the~zero deviation, the~file size actually increased. However, this is not the~case for all heightmaps --- ie. the~flat ones}{table.6.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}The\nobreakspace  {}compression artifacts}{34}{section.6.2}}
+\newlabel{sec:artifs}{{6.2}{34}{The~compression artifacts}{section.6.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces The\nobreakspace  {}compression ratio for various maximum deviations --- tested on a\nobreakspace  {}reference image which can be seen in Attachment\nobreakspace  {}\ref  {att:res_ref}.}}{35}{table.6.3}}
+\newlabel{tab:ratios}{{6.3}{35}{The~compression ratio for various maximum deviations --- tested on a~reference image which can be seen in Attachment~\ref {att:res_ref}}{table.6.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The\nobreakspace  {}reference heightmap on which we measured the\nobreakspace  {}compression ratios for various deviations and which we use in Attachment\nobreakspace  {}\ref  {att:res_ref} to demonstrate the\nobreakspace  {}outputs of compression for various maximum deviation settings.}}{35}{figure.6.1}}
 \newlabel{fig:ref_map}{{6.1}{35}{The~reference heightmap on which we measured the~compression ratios for various deviations and which we use in Attachment~\ref {att:res_ref} to demonstrate the~outputs of compression for various maximum deviation settings}{figure.6.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Two synthetic test images of size 64x64, each one containing spiky terrain with the\nobreakspace  {}heights ranging from -16 to 16. On the\nobreakspace  {}left, the\nobreakspace  {}longitude of spikes is 4, on the\nobreakspace  {}right, it is 16. From the\nobreakspace  {}top to the\nobreakspace  {}bottom --- the\nobreakspace  {}original, compressed with the\nobreakspace  {}maximum deviation of 5, the\nobreakspace  {}difference between these\nobreakspace  {}two. The\nobreakspace  {}brighter the\nobreakspace  {}color, the\nobreakspace  {}greater the\nobreakspace  {}value. In the\nobreakspace  {}difference image, the\nobreakspace  {}yellow color means 4.5, whereas the\nobreakspace  {}blue color means -4.5.}}{36}{figure.6.2}}
@@ -23,12 +24,12 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Two synthetic examples of the\nobreakspace  {}difference between artifacts caused by order 2 and order 4 filters near a\nobreakspace  {}sharp terrain change --- in the\nobreakspace  {}first row there are the\nobreakspace  {}target heightmaps, in the\nobreakspace  {}second row, the\nobreakspace  {}same heightmaps compressed using the\nobreakspace  {}order 2 filter, in the\nobreakspace  {}third row, the\nobreakspace  {}heightmaps compressed with the\nobreakspace  {}order 4 filter. The\nobreakspace  {}span of the\nobreakspace  {}values in the\nobreakspace  {}original images is from 0 to 16 and the\nobreakspace  {}maximum absolute deviation ($D$) of compression is set to 9.}}{39}{figure.6.4}}
 \newlabel{fig:artifs_sharp_change}{{6.4}{39}{Two synthetic examples of the~difference between artifacts caused by order 2 and order 4 filters near a~sharp terrain change --- in the~first row there are the~target heightmaps, in the~second row, the~same heightmaps compressed using the~order 2 filter, in the~third row, the~heightmaps compressed with the~order 4 filter. The~span of the~values in the~original images is from 0 to 16 and the~maximum absolute deviation ($D$) of compression is set to 9}{figure.6.4}{}}
 \citation{image_proc}
-\citation{median}
-\citation{median}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Two illustrations of how artifacts can occur near sharp terrain changes --- the\nobreakspace  {}black dots stand for the\nobreakspace  {}predictions which are still within the\nobreakspace  {}maximum-error bound $D$ from the\nobreakspace  {}target terrain, the\nobreakspace  {}blue dots represent the\nobreakspace  {}predictions which are just slightly further from the\nobreakspace  {}terrain, because their filters span to the\nobreakspace  {}area behind the\nobreakspace  {}change. Due to the\nobreakspace  {}fact that a\nobreakspace  {}uniform quantizer with the\nobreakspace  {}step of $2D-1$ is applied to the\nobreakspace  {}residuals, the\nobreakspace  {}residuals added to the\nobreakspace  {}blue predictions will cause them to be shifted by $2D - 1$ to the\nobreakspace  {}top (the\nobreakspace  {}image on the\nobreakspace  {}left) or to the\nobreakspace  {}bottom (the\nobreakspace  {}image on the\nobreakspace  {}right), creating sharp peaks in the\nobreakspace  {}reconstructed values --- the\nobreakspace  {}artifacts.}}{40}{figure.6.5}}
 \newlabel{fig:artifs_theory}{{6.5}{40}{Two illustrations of how artifacts can occur near sharp terrain changes --- the~black dots stand for the~predictions which are still within the~maximum-error bound $D$ from the~target terrain, the~blue dots represent the~predictions which are just slightly further from the~terrain, because their filters span to the~area behind the~change. Due to the~fact that a~uniform quantizer with the~step of $2D-1$ is applied to the~residuals, the~residuals added to the~blue predictions will cause them to be shifted by $2D - 1$ to the~top (the~image on the~left) or to the~bottom (the~image on the~right), creating sharp peaks in the~reconstructed values --- the~artifacts}{figure.6.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of artifacts at the\nobreakspace  {}finest mip-map level produced by the\nobreakspace  {}even quantization (as described in Chap.\nobreakspace  {}\ref  {chap:details}) and those produced by the\nobreakspace  {}progressive quantization with $k$ set to 5, both with 10\nobreakspace  {}m max. error at the\nobreakspace  {}finest level. On the\nobreakspace  {}top there is the\nobreakspace  {}original, in the\nobreakspace  {}remaining two rows there are the\nobreakspace  {}compressed versions on the\nobreakspace  {}left and their differences with the\nobreakspace  {}original on the\nobreakspace  {}right, in which the\nobreakspace  {}yellow color means 9.5m and the\nobreakspace  {}blue color means -9.5m.}}{41}{figure.6.6}}
 \newlabel{fig:artifs_progressive}{{6.6}{41}{Comparison of artifacts at the~finest mip-map level produced by the~even quantization (as described in Chap.~\ref {chap:details}) and those produced by the~progressive quantization with $k$ set to 5, both with 10~m max. error at the~finest level. On the~top there is the~original, in the~remaining two rows there are the~compressed versions on the~left and their differences with the~original on the~right, in which the~yellow color means 9.5m and the~blue color means -9.5m}{figure.6.6}{}}
+\citation{median}
+\citation{median}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces An\nobreakspace  {}example of basic median filtering. The\nobreakspace  {}value of the\nobreakspace  {}middle pixel (255) is substituted by the\nobreakspace  {}median of it together with all neighboring values (96).}}{42}{figure.6.7}}
 \newlabel{fig:median}{{6.7}{42}{An~example of basic median filtering. The~value of the~middle pixel (255) is substituted by the~median of it together with all neighboring values (96)}{figure.6.7}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of artifacts at the\nobreakspace  {}finest mip-map level before and after the\nobreakspace  {}median filter applied. The\nobreakspace  {}maximum deviation of compression $D$ is 10\nobreakspace  {}m and the\nobreakspace  {}maximum deviation of the\nobreakspace  {}filter $D_M$ is additional 5\nobreakspace  {}m. On the\nobreakspace  {}top there is the\nobreakspace  {}original, in the\nobreakspace  {}remaining two rows there are the\nobreakspace  {}results on the\nobreakspace  {}left and their differences with the\nobreakspace  {}original on the\nobreakspace  {}right. In the\nobreakspace  {}upper difference image, the\nobreakspace  {}yellow color means 9.5\nobreakspace  {}m and the\nobreakspace  {}blue color means -9.5\nobreakspace  {}m, whereas in the\nobreakspace  {}lower one, the\nobreakspace  {}yellow means 14.5\nobreakspace  {}m and the\nobreakspace  {}blue means -14.5\nobreakspace  {}m.}}{43}{figure.6.8}}
@@ -44,7 +45,7 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{6}
-\setcounter{section}{1}
+\setcounter{section}{2}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
@@ -55,6 +56,6 @@
 \setcounter{AM@survey}{0}
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{4}
-\setcounter{bookmark@seq@number}{14}
+\setcounter{bookmark@seq@number}{16}
 \setcounter{section@level}{1}
 }

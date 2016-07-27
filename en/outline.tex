@@ -38,6 +38,8 @@ During the~decompression, the~fetched and decompressed residuals are just added 
 	\label{fig:single_decomp}
 \end{figure}
 
+\section{Formal description}
+
 More formally, the~first pass is given the~input square block of float height samples $\lnorm{n}$ sized $2^n \times 2^n$ and produces $n$ mip-maps $\lnorm{n-1..0}$ from it, one by one. The~dimension of $\lnorm{i}$ is half the~dimension of $\lnorm{i+1}$. Just like it is common in mip-maps $\lnorm{i}$ is computed from $\lnorm{i+1}$ by straightforward averaging of pixels --- see the~details in the~following chapter. 
 
 The~second top-down pass has already $\lnorm{0..n}$ available and computes $\ldot{0..n}$ --- the~compressed mip-maps. The~dimension of $\lnorm{i}$ and $\ldot{i}$ is the~same. The~computation ensures that the~maximum absolute deviation between their~corresponding samples is not greater than $\objnorm{D}{}$ --- the~parameter set by the~user. This will be denoted by:

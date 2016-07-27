@@ -38,6 +38,9 @@ In the~previous chapter describing the~outline of the~method, we claimed that we
 	\caption{Substituting the~pixel p in $\ldot{i}$ with four pixels in $\ldot{i+1}$}
 	\label{fig:subst}
 \end{figure}
+
+\subsection*{Prediction of $a$ pixels}
+
 In the~first of the~three steps, we compute the~pixels labeled $a$. To predict them from their corresponding $p$ pixels inside $\ldot{i}$, we use a~simple prediction operator $\opnorm{P}{a}(\ldot{i}) = p$. We compute the~residuals $\objnorm{E}{a}$ and $\objdot{E}{a}$ with respect to the~target value $a_t$ in $\lnorm{i+1}$ and then assign $a$ the~final value $a\bullet$ (eq. \ref{eq:a}, recall that $\opnorm{Q}{D}$ is a~uniform quantizer respecting the~maximum deviation $D$: $maxdev(v, \opnorm{Q}{D}(v)) < D$). It is clear that  $maxdev(a\bullet, a_{t}) \leq \objnorm{D}{}$. The~explanation would be the~same as in Chapter~\ref{chap:outline}.
 
 $$\objnorm{E}{a} = a_t - p$$
@@ -46,6 +49,8 @@ $$\objdot{E}{a} = \opnorm{Q}{D}(\objnorm{E}{a})$$
 \label{eq:a}
 a\bullet = p + \objdot{E}{a}
 \end{equation}
+
+\subsection*{Prediction of $b$ pixels}
 
 In the~second step, we compute the~pixels labeled $b$. We do~not predict them from $\ldot{i}$ anymore, but from the~already available pixels $a\bullet$ inside $\ldot{i+1}$. The~prediction operator $\opnorm{P}{b}$ used for this has now the~form of a~straight-oriented Neville interpolating filter of order 2. All it does is that when it is requested to predict the~height at some pixel, it just averages the~heights of its certain four neighboring pixels as depicted in Fig.~\ref{fig:bcomp}. It is easy to see that as long as it is requested to predict the~height at pixels $b$, it always averages only the~already known $a\bullet$ pixels. This is the~same prediction operator as the~one used in C-BDAM to predict the~heights of the~samples located at the~border of a~LOD hierarchy node. Once the~predictions of $b$ pixels are known, we perform an~analogic computation of residuals $\objnorm{E}{b}$ and their quantizations $\objdot{E}{b}$, again with respect to the~corresponding target values $b_t$ in $\lnorm{i+1}$. Finally, we assign $b$ its final value $b\bullet$ (eq.~\ref{eq:b}).
 
@@ -93,6 +98,8 @@ Unlike C-BDAM, this method uses the~smaller order 2 filter even for the~interior
 	\caption{The~caching of $\opnorm{P}{b}$ during a~horizontal traversal computing predictions of all $b$ pixels. The~arrow above the~grid shows the~direction of traversal --- left to right, so that $b_1$ is predicted as first, $b_2$ as second and the~traversal might continue further to the~right. The~pixels with top-left to bottom-right strips are averaged to predict $b_1$, whereas the~pixels with bottom-left to top-right strips are averaged to predict $b_2$. Two pixels are inside both groups --- they are stripped in both ways. Thus, the~sum of them can be cached during the~prediction of $b_1$ and reused inside the~prediction of $b_2$, sparing one summation per prediction this way.}
 	\label{fig:bcaching}
 \end{figure}
+
+\subsection*{Prediction of $c$ pixels}
 
 Finally, in the~third step of compression, we compute the~pixels labeled $c$. We predict them from the~already available compressed values of both $a\bullet$ and $b\bullet$ inside $\ldot{i+1}$. The~prediction operator $\opnorm{P}{c}$ used for it has now the~form of a~diagonally-oriented Neville interpolating filter of order 2. It is the~same as the~previously applied $\opnorm{P}{b}$, except for its different orientation --- relatively to $\opnorm{P}{b}$, it is rotated by 45 degrees and averages the~4-connected neighbors of the~point of application (Fig.~\ref{fig:ccomp}). Once the~predictions of heights at $c$ pixels are known, we perform an~analogic computation of residuals $\objnorm{E}{c}$ and their quantizations $\objdot{E}{c}$, again with respect to the~corresponding target values $c_t$ inside $\lnorm{i+1}$. At last, we assign every pixel $c$ its final value $c\bullet$ (eq.~\ref{eq:c}).
 
